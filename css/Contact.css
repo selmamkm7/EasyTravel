@@ -1,0 +1,32 @@
+#image1
+{
+    border-radius: 45px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+#mailspace
+{
+    border-radius: 15px;
+    width:400px;
+    height: 30px;
+}
+
+#fnamespace
+{
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+#lnamespace
+{
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+}
+
+#messagebox
+{
+    border-radius: 15px;
+}
