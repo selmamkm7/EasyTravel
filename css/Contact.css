@@ -1,0 +1,51 @@
+#image1
+{
+    border-radius: 45px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+#mailspace
+{
+    border-radius: 15px;
+    width:622px;
+    height: 50px;
+}
+
+#fnamespace
+{
+    border-radius: 15px;
+    width: 270px;
+    height: 50px;
+}
+
+#lnamespace
+{
+    border-radius: 15px;
+    width: 270px;
+    height: 50px;
+}
+
+#messagebox
+{
+    border-radius:15px;
+    resize: none;
+}
+
+#contact
+{
+    margin-left: 950px;
+    margin-top: -600px;
+}
+
+form
+{
+    text-align: center;
+    margin-right: 50px;
+}
+
+p, ::placeholder
+{
+    font-family: 'Inter'; font-size: 16px;
+    color: #003059;
+}
