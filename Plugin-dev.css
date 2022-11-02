@@ -1,0 +1,84 @@
+body {
+    height: 700px;
+    background-image: url(./image/luca-bravo-zAjdgNXsMeg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+div {
+    border: rgba(255, 255, 255, 0.519);
+    background-color: rgba(255, 255, 255, 0.723);
+    width: 800px;
+    height: 550px;
+    border-radius: 10px;
+    vertical-align: middle;
+  position: relative;
+  right: -21%;
+}
+
+form {
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+
+input{
+    color: rgb(30, 79, 108);
+    size: 10;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: rgb(222, 218, 218);
+    border-style: groove;
+    text-decoration-color: rgb(30, 79, 108);
+    font-family: Helvetica;
+    font-size: small;
+    font-style: normal;
+    position: relative;
+    right: -38%;
+}
+
+label {color:#076373; 
+    font-size:small;
+}
+
+p {color: #076373;
+text-align: center;
+font-size: small;}
+
+input[type="checkbox"] {
+    position: relative;
+    right: -23%;
+    color: #076373;
+    width: 100px;
+    height: 20px;
+    font-size: small;
+}
+
+.inline{
+    width: unset;
+    position: relative;
+    right: -20%;
+    vertical-align: middle;
+}
+button {
+    background-color: rgb(30, 79, 108);
+    border-color: rgb(30, 79, 108);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    position: relative;
+   right: -45%;
+}
