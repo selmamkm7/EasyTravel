@@ -1,0 +1,154 @@
+.parent a {
+	margin: 10%;
+	text-decoration: none;
+}
+
+nav > ul li:hover .child{
+	display: block;
+
+}
+
+.child {
+	display: none ;
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+}
+
+nav > ul li.parent:hover .baby{
+	display: block;
+	position: absolute;
+}
+
+.baby {
+	display: none ;
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
+}
+
+.child li {
+	background-color: #fff;
+	line-height: 35px;
+	border-bottom: #CCC 1px solid;
+	border-right: #CCC 1px solid;
+	width: 100%;
+	padding: 5px;
+	margin-right: auto;
+}
+
+.child li a {
+	color: #003059;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	min-width: 10em;
+}
+
+li:hover {
+	background-color: #4e7996;
+}
+
+.parent li:hover {
+	background-color: #4e7996;
+}
+
+.grandparent {
+	display: block;
+	position: relative;
+	float: left;
+	line-height: 30px;
+	
+	
+}
+.titre{
+    background-image: url(../images/Header_Home_Page.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+	
+}
+
+ul li a{
+	text-decoration: none;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.grandparent  {
+	list-style: none;
+	margin-right: 7%;
+	position: relative;
+    top: -70px;
+	left: 50%;
+}
+
+.contact{
+	background-color: #003059;
+	border: 5px bold #003059;
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 100px;
+	color: #fff;
+	bottom: 10px;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(60% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  
+}
+
+.newsletter{
+	background-color: #003059;
+	border: 5px bold #003059;
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 100px;
+	color: #fff;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(60% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  
+}
+
+.reseaux{
+	background-color: #003059;
+	border: 5px bold #003059;
+	border-radius: 10px 10px 10px 10px;
+	padding-top: 100px;
+	color: #fff;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(60% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  
+}
+
+.presentation{
+	display: flex;
+	justify-content: space-between;
+  
+}
+.footer{
+	float: right;
+	display: flex;
+	
+}
+.bulles{
+	display: flex;
+	justify-content: space-around;
+}
+
