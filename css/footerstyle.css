@@ -1,0 +1,23 @@
+footer{
+    background-image: linear-gradient(rgba(25, 62, 143, 0.268),rgb(25, 62, 143) 50%);
+    display: flex;
+    justify-content: space-between;
+}
+.footermenu{
+    
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+.footermenu a{
+    margin: auto;
+    color: rgba(250, 235, 215, 0.864);
+}
+.copy{
+    display: flex;
+    align-items: flex-end;
+    color: rgba(250, 235, 215, 0.474);
+    
+}
