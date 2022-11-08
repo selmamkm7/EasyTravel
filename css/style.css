@@ -1,7 +1,3 @@
-.parent a {
-	margin: 10%;
-	text-decoration: none;
-}
 
 nav > ul li:hover .child{
 	display: block;
