@@ -2,27 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edege">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/Contact.css">
+    <link rel="stylesheet" href="css/Contact.css">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <title>Voyage</title>
 </head>
-<body>
-    <header>
-   <a href="">    
-    <img src="./images/Adobe_Express_20221101_1834260_1.png" alt="Easy Travel" width="80">
+<body> 
+    <header id="barrefixe">
+        
+   <a href="index.html">    
+    <img src="./images/logo_easytravel.png" id="logo">
     </a>
-    <label>
-        <input type="search" name>
-    </label>    
-    </header>
-<div>
-    <img src="./images/ophelie-authier-X0SMdQSQwzc-unsplash.jpg" id="image1" width="800" height="600">
-</div>
+    <form method="get" class="formSearch">
 
+        <input type="search" id="searchbar" name="search" placeholder="Où souhaitez-vous allez ?">
+    </form>
+    
+    </header>   
+    
+   <div class="main">
+
+    <img src="./images/ophelie-authier-X0SMdQSQwzc-unsplash.jpg" id="image1" width="700" height="550">
+
+<div class="droite">
 <div id="contact">
-    <section>
+        <h1 id="titrecontact">Contact</h1>
         <p id="textcontact">
             Hello, bienvenue sur EASY TRAVEL.<br><br>
 Tu as besoin d’aide pour organiser ton prochain voyage (administratif, formalité, hébergement, passeport, visa ...)?<br/><br/>
@@ -30,9 +34,11 @@ On te propose de remplir ce formulaire et de nous expliquer ta demande et ton pr
         </p>
         <br>
         <br>
+</div >        
+<div id="formulaire">        
         <form>
             <label>
-                <input id="lnamespace"type="text" name="nom" placeholder="Nom"required>&emsp;&emsp;&emsp;&emsp;&ensp;
+                <input id="lnamespace"type="text" name="nom" placeholder="Nom"required>
             </label>
             <label>
                 <input id="fnamespace" type="text" name="prénom" placeholder="Prénom" required>
@@ -43,9 +49,17 @@ On te propose de remplir ce formulaire et de nous expliquer ta demande et ton pr
             <label>
                 <textarea id="messagebox"name="message" rows="13" cols="80" placeholder=" Votre message">
                 </textarea>
-            </label>
-        </form>
-    </section>
+            </label><br><br><br>
+            <button id="envoyer">Envoyer</button>
+        </form><br>
+        <br>
+       
+    
 </div>
+</div>
+</div>
+<footer id="basdepage">
+
+</footer>
 </body>
 </html>
