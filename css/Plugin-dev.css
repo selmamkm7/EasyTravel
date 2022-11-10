@@ -1,6 +1,6 @@
 body {
     height: 700px;
-    background-image: url(./images/image-fond.jpg);
+    background-image: url(/images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -10,6 +10,7 @@ h1 {
     color: white;
     font-weight: 600;
     text-align: center;
+    margin-top: 2%;
 
 }
 
@@ -19,9 +20,12 @@ div {
     width: 800px;
     height: 550px;
     border-radius: 10px;
-    vertical-align: middle;
-  position: relative;
-  right: -21%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position:relative;
+    right: -21%;
+    padding-bottom: 2%;
 }
 
 form {
@@ -72,11 +76,11 @@ input[type="checkbox"] {
     vertical-align: middle;
 
 }
-button:hover {
+.submit:hover {
     background-color: rgb(22, 57, 76);
     border-color: rgb(30, 79, 108);
 }
-button {
+.submit {
     background-color: rgb(30, 79, 108);
     border-color: rgb(30, 79, 108);
     width: 100px;
@@ -91,3 +95,7 @@ input:invalid{
     border-color: red;
 }
 
+.BC{ position:absolute; 
+    right: 2%;
+    top: 2%;
+}
