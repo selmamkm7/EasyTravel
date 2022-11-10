@@ -1,0 +1,46 @@
+body{
+    background-image:url('/images/jack-anstey-XVoyX7l9ocY-unsplash.jpg');
+    background-position: center center;
+    background-attachment:fixed;
+    background-size:contain;
+   
+
+
+}
+
+.card{
+    padding-left: 5px; 
+    background-color: rgba(240, 248, 255, 0.803);
+    border-radius:15px ;
+}
+
+
+/* FOOTER */
+/* #footer {
+    background-image: linear-gradient(rgba(25, 62, 143, 0.268), rgb(25, 62, 143) 50%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.footermenu {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footermenu a {
+    margin: auto;
+    color: rgba(250, 235, 215, 0.864);
+}
+
+.copy {
+    display: flex;
+    align-items: flex-end;
+    color: rgba(250, 235, 215, 0.474);
+
+} */
+/* FOOTER */
