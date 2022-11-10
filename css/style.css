@@ -14,6 +14,7 @@ nav > ul li:hover .child{
 nav > ul li.parent:hover .baby{
 	display: block;
 	position: absolute;
+	
 }
 
 .baby {
