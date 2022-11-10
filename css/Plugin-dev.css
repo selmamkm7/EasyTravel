@@ -63,13 +63,18 @@ input[type="checkbox"] {
     width: 100px;
     height: 20px;
     font-size: small;
-}
+ }
 
 .inline{
     width: unset;
     position: relative;
     right: -20%;
     vertical-align: middle;
+
+}
+button:hover {
+    background-color: rgb(22, 57, 76);
+    border-color: rgb(30, 79, 108);
 }
 button {
     background-color: rgb(30, 79, 108);
@@ -82,3 +87,7 @@ button {
     position: relative;
    right: -45%;
 }
+input:invalid{
+    border-color: red;
+}
+

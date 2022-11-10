@@ -1,20 +1,20 @@
 h1 {
     color: black;
     font-weight: 600;
-    text-align: center;
     font-size: xxx-large;
     font-family: Arial, Helvetica, sans-serif;
-text-align: center;
+    text-align: center;
+   
 }
 
-header {
-  padding-top: 2%;
-  padding-bottom: 2%;
+.baniere {
+  padding-top: 7%;
+  padding-bottom: 7%;
   background-image: url(./images/danilo-d-agostino-NjhHTNPkEDQ-unsplash\(1\).jpg);
   background-size: cover;
-  opacity: 0.65;
 
 }
+
 
 h3 {
     color: rgb(13, 1, 1);
@@ -23,8 +23,6 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
-
 
 .Rome {
   float: left;
@@ -364,16 +362,7 @@ color: black;}
   border-radius: 10px;
 }
 
-div{
-  padding-left:  10%;
-  padding-right: 10%;
-}
-
 .V {
 display: flex;
 justify-content: space-evenly;
-}
-
-.Q{
-  margin-bottom: 10%;
 }
