@@ -1,142 +1,149 @@
-
-nav > ul li:hover .child{
-	display: block;
-
-}
-
-.child {
-	display: none ;
-	top: 0;
-	left: 100%;
-	margin-top: -1px;
-}
-
-nav > ul li.parent:hover .baby{
-	display: block;
-	position: absolute;
-}
-
-.baby {
-	display: none ;
-	top: 0;
-	left: 100%;
-	margin-top: -1px;
-}
-
-.child li {
-	background-color: #fff;
-	line-height: 35px;
-	border-bottom: #CCC 1px solid;
-	border-right: #CCC 1px solid;
-	width: 100%;
-	padding: 5px;
-	margin-right: auto;
-}
-
-.child li a {
-	color: #003059;
-}
-
-ul {
-	list-style: none;
+*{
+	padding: 0;
 	margin: 0;
-	padding: 0px;
-	min-width: 10em;
 }
 
-li:hover {
-	background-color: #4e7996;
+.parent {
+    /* display: block; */
+    position: relative;
+	
 }
 
-.parent li:hover {
-	background-color: #4e7996;
+.parent a {
+    margin-left: 15px;
+    text-decoration: none;
+	font-size: large;
+	
 }
 
 .grandparent {
-	display: block;
-	position: relative;
+	display: inline;
+	list-style: none;
+	/* position: relative;
 	float: left;
 	line-height: 30px;
-	
-	
-}
-.titre{
-    background-image: url(../images/Header_Home_Page.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-	
-}
-
-ul li a{
-	text-decoration: none;
-}
-
-li a{
-	text-decoration: none;
-}
-
-.grandparent  {
-	list-style: none;
 	margin-right: 7%;
-	position: relative;
-    top: -70px;
-	left: 50%;
+	top: -70px;
+	left: 30%; */
+	
 }
+.grandparent a{
+	margin-left: 30px;
+	margin-right: 30px;
+    text-decoration: none;
+	font-size: large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #003059;
+	
+	
+}
+
+nav > ul li:hover .child{
+    display: block;
+}
+
+.child {
+    display: none ;
+    margin-top: 0.1px;
+}
+
+nav > ul li.parent:hover .baby{
+    display: block;
+    position: absolute;
+}
+
+.baby {
+    display: none ;
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+	
+}
+
+.child li {
+    background-color: #fff;
+    /* width: 100%; */
+	
+	
+}
+
+.child li a {
+    color: rgb(6, 41, 101);
+	
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    /* min-width: 10em; */
+}
+
+li:hover {
+    background-color: #002f5998;
+}
+
+.parent li:hover {
+    background-color: #002f5998;
+}
+
+#menu{
+	display: flex;
+	justify-content: space-around;
+}
+
+a{
+	text-decoration: none;
+}
+
 
 .contact{
 	background-color: #003059;
 	border: 5px bold #003059;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 15px 15px 15px 15px;
 	padding-top: 100px;
 	color: #fff;
 	bottom: 10px;
 	display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: calc(60% / 3);
-  margin: 10px;
-  border: 1px solid #000;
-  
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: calc(60% / 3);
+	margin: 10px;
 }
 
 .newsletter{
 	background-color: #003059;
 	border: 5px bold #003059;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 15px 15px 15px 15px;
 	padding-top: 100px;
 	color: #fff;
 	display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: calc(60% / 3);
-  margin: 10px;
-  border: 1px solid #000;
-  
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: calc(60% / 3);
+	margin: 10px;
 }
 
 .reseaux{
 	background-color: #003059;
 	border: 5px bold #003059;
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 15px 15px 15px 15px;
 	padding-top: 100px;
 	color: #fff;
 	display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: calc(60% / 3);
-  margin: 10px;
-  border: 1px solid #000;
-  
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: calc(60% / 3);
+	margin: 10px;
 }
 
 .presentation{
 	display: flex;
 	justify-content: space-between;
-  
+	
 }
 .footer{
 	float: right;
@@ -148,3 +155,135 @@ li a{
 	justify-content: space-around;
 }
 
+ .icons{
+	display:flex;
+	justify-content: space-around;
+	width: 305px;
+	
+}
+.icons i{
+	color: #003059;
+}
+/*
+.icon{
+	display:flex;
+	justify-content: flex-end;
+	align-content: flex-start;
+	
+} */
+h1{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	height: 50%;
+	width: 100%;
+    color: #fff;
+	font-size: 50px;
+	padding-bottom: 5%;
+	text-shadow: #FC0 1px 0 10px;
+}
+.titre{
+	background-image: url(../images//gautier-salles-uffQnKuJ-hc-unsplash.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+.logo{
+	padding-bottom: 30px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#searchbox{
+	display: flex;
+	justify-content: center;
+	height: 10%;
+	
+}
+input{
+	border-radius: 10px 10px 10px 10px;
+	height: 30px;
+	width: 30%;
+	color: black;
+	border-color: #0a6197;
+	box-shadow: #FC0 1px 0 10px;
+}
+
+input#button-submit{
+	height: 30px;
+	width: 5%;
+	background-color: #0a6197;
+	color: #fff;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.principale{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	flex: 1;
+	padding-top: 40px;
+}
+li.grandparent{
+	width: 20%;
+}
+nav{
+	width: 80%;
+}
+.hover-color{
+	color: #003059;
+}
+a:hover span{
+  color: #0a6197!important;
+}
+ul.baby li{
+	padding: 10px;
+}
+
+.text-video{
+	display: flex;
+	flex-direction: column;
+	float: right;
+	padding: 70px;
+	padding-top: 100px;
+	text-align: center;
+	width: 30%;
+}
+h2.text-video p.text-video{
+	display: flex;
+	flex-direction: column;
+}
+.image-video{
+	width: max-content;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+h2{
+	padding-bottom: 40px;
+	color: #003059;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: xx-large;
+}
+p{
+	color: #003059;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+	color: #0a6197;
+	text-decoration: underline;
+}
+h2.top{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: xx-large;
+}
+
+.top-destination img{
+	width: 30%;
+	padding: 20px;
+}
