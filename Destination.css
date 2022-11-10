@@ -2,32 +2,378 @@ h1 {
     color: black;
     font-weight: 600;
     text-align: center;
+    font-size: xxx-large;
     font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+header {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-image: url(./images/danilo-d-agostino-NjhHTNPkEDQ-unsplash\(1\).jpg);
+  background-size: cover;
+  opacity: 0.65;
+
 }
 
 h3 {
-    color: black;
+    color: rgb(13, 1, 1);
     font-weight: 300;
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.responsive {
-    padding: 10px;
-    float: left;
-    width: 300px;
-    height: 250px;
-    border-radius: 10%;
 
-  }
 
-div.first {
-    display: flex;
-}
-
-div.description {
-    padding: 15px;
+.Rome {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
+  border-radius: 10px;
+  opacity: 1.0;
+  
+}
+.Rome:hover {opacity: 0.8;}
+
+.Rome p {
+margin-top: 0;
+text-decoration: none;
+color: black;
+}
+
+a {text-decoration: none;
+color: black;}
+
+.Rome img{
+  border-radius: 10px;
+}
+
+.Milan {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.Milan:hover {opacity: 0.8;}
+
+.Milan p {
+  margin-top: 0;
+}
+
+.Milan img {
+  border-radius: 10px;
+}
+
+.Florence {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.Florence:hover {opacity: 0.8;}
+
+.Florence p {
+  margin-top: 0;
+}
+
+.Florence img {
+  border-radius: 10px;
+}
+
+.Naples {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+.Naples:hover {opacity: 0.8;}
+.Naples p {
+  margin-top: 0;
+}
+
+.Naples img {
+  border-radius: 10px;
+}
+
+.toscane {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.toscane:hover {opacity: 0.8;}
+
+.toscane p {
+  margin-top: 0;
+}
+
+.toscane img {
+  border-radius: 10px;
+}
+
+.pouilles {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.pouilles:hover {opacity: 0.8;}
+
+.pouilles p {
+  margin-top: 0;
+}
+
+.pouilles img {
+  border-radius: 10px;
+}
+
+.sardaigne {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.sardaigne:hover {opacity: 0.8;}
+
+.sardaigne p {
+  margin-top: 0;
+}
+
+.sardaigne img {
+  border-radius: 10px;
+}
+.cinque {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cinque:hover {opacity: 0.8;}
+
+.cinque p {
+  margin-top: 0;
+}
+
+.cinque img {
+  border-radius: 10px;
+}
+
+.adresse {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.adresse:hover {opacity: 0.8;}
+
+.adresse p {
+  margin-top: 0;
+}
+
+.adresse img {
+  border-radius: 10px;
+}
+
+.florence2 {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.florence2:hover {opacity: 0.8;}
+.florence2 p {
+  margin-top: 0;
+}
+
+.florence2 img {
+  border-radius: 10px;
+}
+
+.naples2 {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.naples2:hover {opacity: 0.8;}
+.naples2 p {
+  margin-top: 0;
+}
+
+.naples2 img {
+  border-radius: 10px;
+}
+
+.venise {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.venise:hover {opacity: 0.8;}
+
+.venise p {
+  margin-top: 0;
+}
+
+.venise img {
+  border-radius: 10px;
+}
+
+.transport {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.transport:hover {opacity: 0.8;}
+
+.transport p {
+  margin-top: 0;
+}
+
+.transport img {
+  border-radius: 10px;
+}
+
+.COVID {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+  
+}
+
+.COVID:hover {opacity: 0.8;}
+
+.COVID p {
+  margin-top: 0;
+}
+
+.COVID img {
+  border-radius: 10px;
+}
+
+.italie {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 1.0;
+}
+
+.italie:hover {opacity: 0.8;}
+
+.italie p {
+  margin-top: 0;
+}
+
+.italie img {
+  border-radius: 10px;
+}
+
+.david {
+  float: left;
+  border: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style:double;
+  padding-top: 0%;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 0%;
+  opacity: 1.0;
+
+}
+
+.david:hover {opacity: 0.8;}
+
+.david p {
+  margin-top: 0;
+}
+
+.david img {
+  border-radius: 10px;
+}
+
+div{
+  padding-left:  10%;
+  padding-right: 10%;
+}
+
+.V {
+display: flex;
+justify-content: space-evenly;
+}
+
+.Q{
+  margin-bottom: 10%;
 }
