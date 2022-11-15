@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coonexion</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Plugin-dev-C.css">
 
-    <link rel="stylesheet" href="/css/Plugin-dev-C.css">
 </head>
 <body>
-    <h1>Connexion</h1>
-    <div><br><br><br><br><br><br><br><br><br><br>
 
-        <div>
+    <h1>Inscription</h1>
     
-            <button type="button" class="btn-close position-absolute top-0 end-0" aria-label="Close" class="CB">
+    <article>
+        <div class="item">
+        
+            <button type="button" class="btn-close position-absolute top-0 end-0" aria-label="Close" class="BC">
                 <a href="index.html"></a>
             </button>
             <br>
-        <form action="get"></form>
-        <label>
-            <input type="email" name="email" placeholder="Adresse mail" required> <br>
-        </label><br>
-        <label>
-            <input type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern=[0-9a-fA-F]{4,8} required> <br>
-        </label>
-        <p>*doit contenir au moins 8 caractéres, dont une majuscule, un chiffre et un caractére spécial.</p>
-        <button type="submit" name="Envoyer">Valider</button>
+        <form method="get">
+             <label>
+            <input type="email" name="email" placeholder="Adresse mail" > <br>
+            </label><br>
+            <label>
+            <input type="password" name="confirmation-mdp" placeholder="Confirmation mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" >
+            </label><br>
+            <button  class="submit" name="Envoyer">Valider</button>
+        </form>
+    </div>
+</article>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
+    
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-</div>
 </body>
 </html>
