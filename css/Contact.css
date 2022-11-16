@@ -23,15 +23,18 @@
 }
 
 .main{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
 .droite
 {
     width: 40%;
     margin-left: -100px;
+    
 }
 
 #searchbar
@@ -47,8 +50,8 @@
 {
     display: flex;
     border-radius: 45px;
-    align-self: center;
-    margin-top: 10px;
+   margin-left: 1%;
+    margin-top: 10%;
 }
 
 form
@@ -98,6 +101,7 @@ p, ::placeholder
     font-family: 'Inter'; font-size: 32px;
     color: #003059;
     text-align: center;
+    
 }
 
 
@@ -119,5 +123,17 @@ p, ::placeholder
     margin-left: -10px;
 }    
 
+#formulaire {
+    display: flex;
+}
+
+#contact{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center
+    ;
+}
 
 

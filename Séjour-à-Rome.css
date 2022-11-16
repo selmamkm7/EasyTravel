@@ -6,7 +6,7 @@ padding-bottom: 150px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{ 
+.titre1{ 
     background-image: url(./images/john-rodenn-castillo-t1Cm0nrCjDY-unsplash.jpg);
     background-size: cover;
     opacity: 0.8;
@@ -15,8 +15,8 @@ header{
 .A {
     color: rgb(0, 109, 119);
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 2%;
     text-align: justify;
     font-size: large;
@@ -24,7 +24,7 @@ header{
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 1%;
 
 }
@@ -32,8 +32,8 @@ h3 {
 .B {
     float: left;
     margin-top: 0;
-    margin-left: 1%;
-width: 980px; 
+    margin-left: 2%;
+width: 960px; 
    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -114,7 +114,7 @@ div.T { display: flex;
     flex-direction: column;
     align-items:flex-end;
     margin-right: 4%; 
-    margin-top: 7%;
+    margin-top: 11%;
 }
 
 
@@ -126,25 +126,34 @@ div.globale {
 .D {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .E {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .F{
     color: rgb(48, 85, 88);
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: large}
 
     b{
         color: rgb(48, 85, 88);
+    }
+
+  ul{
+        z-index: 30;
+    }
+    p{
+        color: black;
+        margin-left: 3%;
+        margin-right: 3%;
     }
