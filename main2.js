@@ -23,6 +23,11 @@
 //  console.log(fruits.indexOf("orange")); // retourne l’index de l'element orange
 //  console.log(Array.isArray(fruits)); // true 
 
+// Afficher chaque fruit avec forEach inverse:
+// fruits.forEach(function (fruits) {
+//   console.log(fruits.split("").reverse().join(""))
+// })
+
 
 //  let letters = new Array ("a", "b", "c", "d", "e");
 //  console.log(letters)
@@ -80,6 +85,72 @@
 // },
 // ];
 
+
+// tache = ""
+// for (let i = 0; i < todos.length; i++) {
+//      const el = todos[i] ; 
+    
+//     tache += ` la tache d'id ${el.id} est "${el.text}" elle comporte ${el.text.length} caracteres. Elle est ${el.isCompleted ? " complete" : " non complete"}.`+ "<br>"
+//     console.log(i + tache);
+//     document.write(` la tache d'id ${el.id} est "${el.text}" elle comporte ${el.text.length} caracteres. Elle est ${el.isCompleted ? " complete" : " non complete"}.`+ "<br>")
+// };
+// document.write(tache) 
+
+// afficher toute les taches avec while :
+
+// let tache = "";
+// let i = 0;
+// while (i < todos.length) {
+//   const el = todos[i] ;
+//   document.write(` la tache est ${el.text} .`+ "<br>")
+//   i++;
+// }
+// document.write(tache) 
+
+// demander a l'utilisateur un nombre compris entre 0 et 10 et affichere OK sinon redemander :
+//  let x = Number(prompt('Entrez un nombre entre 0 et 10'));
+
+// while(x<0 || x>10) {
+//         x = Number(prompt('Entrez un nombre entre 0 et 10'))
+// }
+//  console.log('OK')
+
+// Additioner un tableau :
+// let nombre = [1, 2, 3, 4, 5, 6];
+// let somme = 0;
+
+// for (let i = 0; i < nombre.length; i++) {
+//     somme += nombre[i];
+// }
+// console.log(somme);
+
+// Generer un tableau avec nombre aleatoire:
+// let tab =[]
+// for (let i=0; i<5; i++){
+//     // console.log(Math.round(Math.random()*100))
+//     tab.push(Math.round(Math.random()*100))
+// }
+// console.log(tab)
+
+
+
+// let min =0
+// let max=0
+// let sequence = [];
+// for (var i = 0; i < 6; i++) {
+//     function getRandomIntInclusive(min, max) {
+//         min = Math.ceil(min);
+//         max = Math.floor(max);
+//         return Math.floor(Math.random() * (max - min)) + min;
+//       }
+//       sequence.push(getRandomIntInclusive(1,9));
+//     }
+//     document.write(sequence)
+    
+// function getRandomInt(max) {
+//     return Math.floor(Math.random() * max);
+//   }
+  
 
 // console.log(`la tache ${todos[1].text} est ${todos[1].isCompleted ? " complete" : " non complete"}.`); //La tache a ete complete ou non
 
@@ -242,3 +313,84 @@
 //     lgfruits.push(fruits[i].length)
 // }
 // document.getElementById("demo").innerHTML = text;
+
+// Ecrire une fonction qui renvoie le produit de 3 nombres:
+// let somme = (a, b, c) => a * b * c;
+// console.log(somme(1, 2, 1));
+
+// Ecrire un script qui converti les minutes en secondes et afficher le dans le navigateur :
+// let min=2
+// function minToSec(x) { 
+//    return  x * 60
+//   }
+//   document.write(`Il y a ${minToSec(min)} secondes dans ${min} minute.s`)
+
+// Ecrire un script qui renvoie systematiquement le premier et dernier element d'un tableau (puis un element aleatoire du TABLEAU)
+// let fruits = ["mangue", "pastèque", "poire", "orange", "ananas"];
+// function premierEtDernier(tab) {
+//    return tab[0] + " " + tab[tab.length - 1]
+//   }
+//   console.log(premierEtDernier(fruits));
+  
+  // let random = Math.floor(Math.random()*fruits.length);
+  // let value = fruits[random];
+  // console.log(value)
+
+  // Entrez un nombre de seconde et l'afficher en H:m:s
+//   let d = Number(prompt("Entrez un nombre de seconde"))
+//   function secondsToHms(d) {
+//     d = Number(d);
+//     let h = Math.floor(d / 3600);
+//     let m = Math.floor(d % 3600 / 60);
+//     let s = Math.floor(d % 3600 % 60);
+
+//     let hDisplay = h > 0 ? h + (h == 1 ? " hour " : " hours ") : "";
+//     let mDisplay = m > 0 ? m + (m == 1 ? " minute " : " minutes ") : "";
+//     let sDisplay = s > 0 ? s + (s == 1 ? " second" : " seconds") : "";
+//     return hDisplay +":"+ mDisplay +":"+ sDisplay; 
+// }
+// console.log(secondsToHms(d));
+
+
+// // 1-Afficher dans la console le contenu du titre principal:
+// let titre =document.querySelector(".titre")
+// console.log(document.querySelector(".titre").textContent);
+
+// // //2- avec js remplacer le contenu du paragraphe par le contenu du titre principal:
+
+// let para1= document.querySelector(".para1");
+// para1.textContent= titre.innerHTML
+
+// // //3- modifier la couleur de fond du titre principal:
+
+// document.querySelector(".titre").style.backgroundColor = "red";
+
+// // // 4 - copier/coller plusieurs fois le paragraphe, puis en js, modifier la couleur de fond de chaque paragraphe
+
+// let paras = document.getElementsByClassName('container1')
+// console.log(paras)
+// Array.from(paras).forEach(x =>{
+//   x.style.backgroundColor = 'red'
+// })
+
+// 5 - commenter les exos précédent, et dans le fichier html créer un bouton a la suite de la section
+
+// 6 - refaire l'exo 2, mais cette fois ci le paragraphe devra changer seulement quand vous cliquerez sur le bouton
+
+// let para1= document.querySelector(".para1");
+// document.getElementById('change').onclick = changeColor;   
+
+//     function changeColor() {
+//         document.titre.style.color = "purple";
+//         return para1.textContent= titre.innerHTML;
+//     }   
+
+
+// 7 - récupérer 2 images, et en afficher une dans l'html
+// (1 seule balise image)
+// quand vous cliquerez sur l'image, ca la remplacera par la 2ème
+// et éventuellement vice-versa
+
+// 8 - dans une div a part, créer 4-5 petits carrés avec chacun une couleur différente, au click sur une de ces couleur, changer la couleur de fond de la page
+
+

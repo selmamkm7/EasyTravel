@@ -98,22 +98,29 @@
           </nav>
         </div>
                   <div class="Icons">
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-                              </svg>
-                        </a>
-                      
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Connexion</a></li>
-                          <li><a class="dropdown-item" href="#">Inscription</a></li>
-                        </ul>
-                      </div>
+                    
+                    
+                    
+                    <div class="Icons">
+                      <div class="dropdown">
+                          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                </svg>
+                          </a>
+                        
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalA">
+                              Connexion
+                            </button> </a></li>
+                            <li><a class="dropdown-item" href="#"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalB">Inscription</button></a></li>
+                          </ul>
+                        </div>
+  
 
 <a  class="cart" href="#">
-                      <i class="fa-solid fa-cart-shopping"></i>
+                      <i class="fa-solid fa-cart-shopping" width="40px"></i>
                     </a>
                     <!-- <a class="user" href="#">
                       <i class="fa-solid fa-user-large"></i>
@@ -126,26 +133,84 @@
  
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade mw-100"  id="exampleModalA" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Connexion</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="div-connexion">
+          <form action="get" class="form-connexion">
+          <label class="label-connexion">
+              <input class="input-connexion" type="email" name="email" placeholder="Adresse mail" required> <br>
+          </label><br>
+          <label class="label-connexion">
+              <input class="input-connexion" type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern=[0-9a-fA-F]{4,8} required> <br>
+          </label>
+          <p class="p-connexion">*doit contenir au moins 8 caractéres, dont une <br> majuscule, un chiffre et un caractére spécial.</p>  
+          
+        <br>
+        <a href=""> <p class="Mdp"> Mot de passe oublié</p></a>
+       </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <button id="connexion" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
+      </div></form>
     </div>
   </div>
 </div>
 
 
+<div class="modal fade" id="exampleModalB" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscription</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="div-inscription"><br>
+          <form class="form-inscription" action="get">
+                  <label class="label-inscription">
+                      <input class="input-inscription" type="text" name="nom" placeholder="Nom" required> <br>
+                  </label><br><br>
+                  <label class="label-inscription">
+                      <input class="input-inscription" type="text" name="prénom" placeholder="Prénom" required>
+                  </label><br> <br>
+                  <label class="label-inscription">
+                      <input class="input-inscription" type="email" name="email" placeholder="Adresse mail" required> <br>
+                  </label><br>
+                  <label class="label-inscription">
+                      <input class="input-inscription" type="tel" name="téléphone" placeholder="Numéro de téléphone" required>
+                  </label> <br><br>
+                  <label class="label-inscription">
+                      <input class="input-inscription" type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required> <br>
+                  </label>
+                  <p class="p-inscription">*doit contenir au moins 8 caractéres, dont une <br> majuscule, un chiffre et un caractére spécial.</p>
+                  
+                  <label class="label-inscription">
+                      <input class="input-inscription" type="password" name="confirmation-mdp" placeholder="Confirmation mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required>
+                  </label>
 
+
+
+<br>
+                  <article class="label-inscription">
+                  <label class="label-inscriptionZ">
+                    <input class="input-inscription" type="checkbox" name="CGV-NL" id="accepte"> <p class="inline">J'accepte les conditions générales de ventes </p>
+                </label>
+                 <label class="label-inscriptionZ">
+                  <input class="input-inscription" type="checkbox" name="CGV-NL" id="accepte"> <p class="inline">J'accepte de m'incrire à la Newsletter et de recevoir des offres promotionnelles </p>
+              </label></article>
+      </div>
+      <div class="modal-footer">
+        <button id="inscription" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
+      </div>
+    </div></form>
+  </div>
+</div>
 
  
  <!-- <div class="text">
@@ -246,19 +311,58 @@
     <!-- fin top desitnation -->
 
     <!-- presentation des admin -->
-    <section>
-      <div class="presentation">
-        <h2>Qui sommes-nous ?</h2>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="...">
-          
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card  ">
+            <img src="/images/unknown-removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Selma </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+              <img src="/images/unknown-removebg-preview(1).png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p class="card-text">Salut a toi et bienvenue sur EasyTravel ! Apres de longues années passées dans les études, un groupe d'amis amis et moi-meme avons decidés de tout plaquer et de vivre de notre passion : le voyage !</p><br/>
-                <p>Apres une annee a decouvrir le monde, nous avons Lorem Ipsum...</p>
+                <h5 class="card-title">Justine</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
+            </div>
+        </div>  
+        <div class="col">
+          <div class="card">
+            <img src="/images/unknown-removebg-preview(2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Emre</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
       </div>
-    </section>
+          <div class="col">
+  
+          <div class="card">
+            <img src="/images/unknown-removebg-preview(3).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ahmed</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>          
+            </div>
+          </div>
+          
+      </div>
+      <div class="col">
+          <div class="card">
+            <img src="/images/unknown-removebg-preview(4).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ossama</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
     <!-- fin presentation des admin -->
 
     <!-- bulles newsletter/contact/reseaux -->
