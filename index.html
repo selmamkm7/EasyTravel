@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footerstyle.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="images/logo_easytravel.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
     <title>Easy Travel</title>
 </head>
 <body>
+  <!-- menu deroulant -->
     <header>
         <div>
             <img src="./images/easytravel_logo.png" alt="business logo" width="100px" height="100px" class="logo">
         </div>
         <div class="principale">
+          <div class="p-nav">
             <nav>
               <ul id="menu">
                 <li class="grandparent"><a href="#"><span class="hover-color">Destination</span></a>
                   <ul class="child">
                     <li class="parent"><a href="#"><span class="hover-color">Asie</span></a>
                       <ul class="baby">
-                        <li><a href="#"><span class="hover-color">Japon</span></a></li>
+                        <li><a href="#"><span class="hover-color">Coree du Sud</span></a></li>
                         <li><a href="#"><span class="hover-color">Indonesie</span></a></li>
                         <li><a href="#"><span class="hover-color">Philippine</span></a></li>
                         <li><a href="#"><span class="hover-color">Malaisie</span></a></li>
@@ -65,7 +69,19 @@
                         <li><a href="#"><span class="hover-color">Vermont</span></a></li>
                       </ul></li>
                   </ul>
-                </li>
+               
+                <ul class="child">
+                  <li class="parent"><a href="#"><span class="hover-color">Oceanie</span></a>
+                    <ul class="baby">
+                      <li><a href="#"><span class="hover-color">Canada</span></a></li>
+                      <li><a href="#"><span class="hover-color">New York</span></a></li>
+                      <li><a href="#"><span class="hover-color">Washington</span></a></li>
+                      <li><a href="#"><span class="hover-color">Californie</span></a></li>
+                      <li><a href="#"><span class="hover-color">Floride</span></a></li>
+                      <li><a href="#"><span class="hover-color">Vermont</span></a></li>
+                    </ul></li>
+                </ul>
+              </li>
                 <li class="grandparent"><a href="#"><span class="hover-color">Nos Formules</span></a>
                           <ul class="child">
                             <li><a href="#"><span class="hover-color">Sejour</span></a></li>
@@ -80,35 +96,151 @@
               </li>
             </ul>
           </nav>
-                  <div class="icons">
-                    <a href="#">
+        </div>
+                  <div class="Icons">
+                    
+                    
+                    
+                    <div id="boutton-user" class="dropdown btn-user">
+                      <button class="user" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-user-large"></i>
+                        </button>
+                        <!-- <div class="body2">
+                        <ul class="dropdown-menu">
+                          <li><a class="btn" href="#">Connexion</a></li>
+                          <li><a class="inscr" href="#">Inscription</a></li>
+                        </ul>
+                      </div> -->
+                      <!-- Button trigger modal -->
+                      <ul class="dropdown-menu ">
+
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-reference="parent">
+                          Connexion
+                        </button>
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                          Inscription
+                        </button>
+                      </ul>
+                        </div>
+
+<a  class="cart" href="#">
                       <i class="fa-solid fa-cart-shopping"></i>
                     </a>
-                    <a href="#">
+                    <!-- <a class="user" href="#">
                       <i class="fa-solid fa-user-large"></i>
-                    </a>
+                    </a> -->
+
                   </div>
-         </div>
-    </header>
-  <div class="content">
-    <div class="titre">
-        <h1>La solution idéale pour voyager plus serainement !</h1>
-        <form id="searchbox" action="search" method="get">
-            <input name="q" type= "text" placeholder=" Choisissez une destination" />&emsp;
-            <input id="button-submit" type="submit" value= "Search" />
-            </form>
+                  
+              <!-- Menu User -->
+
+ 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
   </div>
-    <section>
+</div>
+
+
+
+
+ 
+ <!-- <div class="text">
+   <h1 class="h1-connexion">Connexion</h1>
+   <div class="div-connexion"><br><br><br><br><br><br><br><br><br><br>
+       <form action="get" class="form-connexion">
+       <label class="label-connexion">
+           <input class="input-connexion" type="email" name="email" placeholder="Adresse mail" required> <br>
+       </label><br>
+       <label class="label-connexion">
+           <input class="input-connexion" type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern=[0-9a-fA-F]{4,8} required> <br>
+       </label>
+       <p class="p-connexion">*doit contenir au moins 8 caractéres, dont une majuscule, un chiffre et un caractére spécial.</p>
+       <button class="button-connexion" type="submit" name="Envoyer">Valider</button>
+      </form>
+    </div>
+ </div>
+ 
+ 
+ <div class="text2">
+     <h1 class="h1-inscription">Inscription</h1>
+     <div class="div-inscription"><br><br><br><br><br><br><br><br><br><br>
+ <form class="form-inscription" action="get"></form>
+         <label class="label-inscription">
+             <input class="input-inscription" type="text" name="nom" placeholder="Nom" required> <br>
+         </label><br>
+         <label class="label-inscription">
+             <input class="input-inscription" type="text" name="prénom" placeholder="Prénom" required>
+         </label><br> <br>
+         <label class="label-inscription">
+             <input class="input-inscription" type="email" name="email" placeholder="Adresse mail" required> <br>
+         </label><br>
+         <label class="label-inscription">
+             <input class="input-inscription" type="tel" name="téléphone" placeholder="Numéro de téléphone" required>
+         </label> <br><br>
+         <label class="label-inscription">
+             <input class="input-inscription" type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required> <br>
+         </label>
+         <p class="p-inscription">*doit contenir au moins 8 caractéres, dont une majuscule, un chiffre et un caractére spécial.</p>
+         <label class="label-inscription">
+             <input class="input-inscription" type="password" name="confirmation-mdp" placeholder="Confirmation mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required>
+         </label><br><br>
+         <label class="label-inscription">
+             <input class="input-inscription" type="checkbox" name="CGV-NL" id="J'accepte" required>  <label for="CGV-NL" class="inline">J'accepte <a href="">les conditions générales de vente.</a>  </label>
+         </label><br>
+         <label class="label-inscription">
+             <input class="input-inscription" type="checkbox" name="CGV-NL" id="j'accepte"> <label for="CGV-NL" class="inline">J'accepte de m'incrire à la Newsletter et de recevoir des offres promotionnelles </label>
+         </label><br><br>
+         <button class="button-inscription" type="submit" name="Envoyer">Valider</button>
+     </div>
+ 
+   
+ </div> -->
+ <!-- Fin Menu User -->
+         </div>
+        </header>
+    <!-- fin menu deroulant -->
+
+
+
+<!-- image -->
+    <div class="titre">
+        <h1>La solution idéale pour voyager plus sereinement !</h1>
+        <form id="searchbox" action="search" method="get">
+            <input name="q" type= "text" placeholder="Choisissez une destination" />
+            <input id="button-submit" type="submit" value= "Go" />
+            </form>
+    </div>
+<!-- fin image -->
+
+    <!-- text video -->
+    <section class="section-text-video">
       <div class="text-video"> 
        <h2>Bienvenue sur ta nouvelle reference voyage !</h2>
        <p>Retrouve sur notre site les meilleurs conseils pour te préparer à partir.<br/>
-        Pour aller plus loin, rends toi dans la section <a href="#">Contact</a> pour un accompagnement personnalisé pour ton prochain voyage !</p>
+        <span class="p2">Pour aller plus loin, rends toi dans la section <a href="#">Contact</a> pour un accompagnement personnalisé sur ton prochain voyage !</span></p>
       </div>
       <div class="image-video">
           <img src="./images/video.png" alt="video">
        </div>
     </section>
+    <!-- fin text-video -->
+
+    <!-- top destionation -->
     <section>
       <div>
         <h2 class="top">Top destinations du moment</h2>
@@ -122,47 +254,82 @@
        <a href="#"><img src="./images/UAE.png" alt="emirats arabes unis"></a>
       </div>
     </section>
+    <!-- fin top desitnation -->
+
     <!-- presentation des admin -->
-    <section>
-      <div class="presentation">
-        <h2>Qui sommes-nous ?</h2>
-          <h3 class="prenom">Selma</h3>
-          <p>Hello ! Moi c’est Selma.</p><br/> 
-            <p>Apres de longues années passées dans les études, j’ai decidé de tout plaquer et de vivre de ma passion : le voyage !</p><br/>
-            <p>J’ai eu la chance de faire connaissance avec des amis incroyable grace à qui Easy Travel a pu voir le jour.</p>
-          <h3 class="prenom">Justine</h3>
-          <p>Hello ! Moi c’est Justine.</p><br/> 
-            <p>Apres de longues années passées dans les études, j’ai decidé de tout plaquer et de vivre de ma passion : le voyage !</p><br/>
-            <p>J’ai eu la chance de faire connaissance avec des amis incroyable grace à qui Easy Travel a pu voir le jour.</p>
-          <h3 class="prenom">Emre</h3>
-          <p>Hello ! Moi c’est Emre.</p><br/> 
-            <p>Apres de longues années passées dans les études, j’ai decidé de tout plaquer et de vivre de ma passion : le voyage !<br/>
-            J’ai eu la chance de faire connaissance avec des amis incroyable grace à qui Easy Travel a pu voir le jour.</p>
-          <h3 class="prenom">Ahmed</h3>
-          <p>Hello ! Moi c’est Ahmed.</p><br/> 
-            <p>Apres de longues années passées dans les études, j’ai decidé de tout plaquer et de vivre de ma passion : le voyage !<br/>
-            J’ai eu la chance de faire connaissance avec des amis incroyable grace à qui Easy Travel a pu voir le jour.</p>
-          <h3 class="prenom">Ossama</h3>
-          <p>Hello ! Moi c’est Ossama.</p><br/> 
-            <p>Apres de longues années passées dans les études, j’ai decidé de tout plaquer et de vivre de ma passion : le voyage !<br/>
-            J’ai eu la chance de faire connaissance avec des amis incroyable grace à qui Easy Travel a pu voir le jour.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card  ">
+            <img src="/images/unknown-removebg-preview.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Selma </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+              <img src="/images/unknown-removebg-preview(1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Justine</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+        </div>  
+        <div class="col">
+          <div class="card">
+            <img src="/images/unknown-removebg-preview(2).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Emre</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
       </div>
-    </section>
+          <div class="col">
+  
+          <div class="card">
+            <img src="/images/unknown-removebg-preview(3).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ahmed</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>          
+            </div>
+          </div>
+          
+      </div>
+      <div class="col">
+          <div class="card">
+            <img src="/images/unknown-removebg-preview(4).png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ossama</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
     <!-- fin presentation des admin -->
+
     <!-- bulles newsletter/contact/reseaux -->
     <section class="bulles">
       <div class="contact">
+        <i class="fa-regular fa-comment"></i>
         <h4>Contact</h4>
-        <button name="button" href="#">Envoi-moi un message</button>
+        <button name="button"><a href="#">Envoi-moi un message</a></button>
       </div>
       <div class="newsletter">
+        <div class="icon-newsletter">
+          <i class="fa-regular fa-newspaper"></i>
+        </div>
         <h4>Newsletter</h4>
         <form id="searchbox"  method="get">
-          <input name="q" type= "text" placeholder="e-mail" />
-          <input id="button-submit" type="submit" value= "Envoyer" />
+          <input name="q" type= "text" placeholder="e-mail"/>
+          <input id="Envoyer" type="submit" value= "Envoyer"/>
           </form>
       </div>
       <div class="reseaux">
+        <i class="fa-solid fa-bell"></i>
         <h4>Reseaux Sociaux</h4>
         <div class="icons">
           <a href="#"> 
@@ -190,6 +357,9 @@
         </div>
   </footer>
   <!-- fin footer -->
-    <script src="https://kit.fontawesome.com/850affcd15.js" crossorigin="anonymous"></script>
-</body>
-</html>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- <script type="text/javascript" src="index.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </html>

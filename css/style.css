@@ -1,21 +1,21 @@
+/* general */
 *{
 	padding: 0;
 	margin: 0;
 }
+/* fin general */
 
+/* menu deroulant */
 .parent {
     /* display: block; */
     position: relative;
 	
 }
-
 .parent a {
     margin-left: 15px;
     text-decoration: none;
 	font-size: large;
-	
 }
-
 .grandparent {
 	display: inline;
 	list-style: none;
@@ -25,7 +25,6 @@
 	margin-right: 7%;
 	top: -70px;
 	left: 30%; */
-	
 }
 .grandparent a{
 	margin-left: 30px;
@@ -34,75 +33,105 @@
 	font-size: large;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	color: #003059;
-	
-	
 }
-
 nav > ul li:hover .child{
     display: block;
-	list-style: none;
-	z-index: 30;	
 }
-
 .child {
     display: none ;
     margin-top: 0.1px;
 }
-
 nav > ul li.parent:hover .baby{
     display: block;
     position: absolute;
 }
-
 .baby {
     display: none ;
     top: 0;
     left: 100%;
     margin-top: -1px;
-	
 }
-
 .child li {
     background-color: #fff;
-    /* width: 100%; */
-	
-	
+	 height: 35px;
+	 text-align: center;
 }
-
 .child li a {
     color: rgb(6, 41, 101);
-	
 }
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0px;
-    /* min-width: 10em; */
 }
-
 li:hover {
     background-color: #002f5998;
 }
-
 .parent li:hover {
     background-color: #002f5998;
 }
-
 #menu{
 	display: flex;
 	justify-content: space-around;
 }
-
+#menu ul{
+	padding: 0;
+}
 a{
 	text-decoration: none;
 }
 
+li.grandparent{
+	width: 20%;
+}
+.p-nav{
+	position: relative;
+	width: 80%;
+}
+nav{
+	position: absolute;
+	width: 100%;
+}
+.hover-color{
+	color: #003059;
+}
+a:hover span{
+  color: #562c09!important;
+}
+ul.baby li{
+	padding: 5px;
+	min-width: 191px;
+	text-align: center;
+}
+.Icons i{
+	color: #003059;
+}
+i{
+	font-size: 400px !important;
+}
+.Icons{
+	display:flex;
+	justify-content: space-evenly;
+	width: 200px;
+}
+.principale{
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	flex: 1;
+	padding-top: 40px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+}
+/* fin menu deroulant */
 
+/* Bulles */
 .contact{
 	background-color: #003059;
-	border: 5px bold #003059;
-	border-radius: 15px 15px 15px 15px;
+	/* border:  5px bold #003059; */
+	border-radius: 15px;
 	padding-top: 100px;
 	color: #fff;
 	bottom: 10px;
@@ -113,7 +142,9 @@ a{
 	width: calc(60% / 3);
 	margin: 10px;
 }
-
+h4{
+	font-size: xx-large;
+}
 .newsletter{
 	background-color: #003059;
 	border: 5px bold #003059;
@@ -127,7 +158,16 @@ a{
 	width: calc(60% / 3);
 	margin: 10px;
 }
-
+form#searchbox{
+	height: max-content;
+	padding-bottom: 10px;
+	align-items: center;
+}
+input#Envoyer {
+    height: 12px;
+    margin-left: 13px;
+    padding-bottom: 23px;
+}
 .reseaux{
 	background-color: #003059;
 	border: 5px bold #003059;
@@ -141,73 +181,34 @@ a{
 	width: calc(60% / 3);
 	margin: 10px;
 }
-
-.presentation{
-	display: flex;
-	justify-content: space-between;
-	
-}
-.footer{
-	float: right;
-	display: flex;
-	
-}
 .bulles{
 	display: flex;
 	justify-content: space-around;
 }
-
- .icons{
+.icons{
 	display:flex;
 	justify-content: space-around;
-	width: 305px;
-	
+	/* width: 305px; */
 }
 .icons i{
-	color: #003059;
+	color: #fff;
+	padding-left: 10px;
 }
-/*
-.icon{
-	display:flex;
-	justify-content: flex-end;
-	align-content: flex-start;
-	
-} */
-h1{
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	padding-top: 300px;
-	height: 20%;
-	width: 100%;
-    color: #fff;
-	font-size: 50px;
-	padding-bottom: 5%;
-	text-shadow: #0a6197 1px 0 10px;
+h4{
+	padding-bottom: 40px;
 }
-.titre{
-	background-image: url(../images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
-	height: 100vh;
-	background-position: center;
-	overflow: hidden;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 110%;
-    text-align: center;
-    justify-content: center;
-    animation-name: change;
-	transition: 15s;
-	animation-duration: 10s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
-	animation-play-state: running;
-	animation-fill-mode: forwards;
-}
-	
+/* fin bulles */
 
+/* footer */
+.footer{
+	float: right;
+	display: flex;	
+}
+/* fin footer */
+
+/* image */
 .logo{
-	padding-bottom: 30px;
+	/* padding-bottom: 30px; */
 	margin-top: 15px;
 	margin-left: 15px;
 }
@@ -215,62 +216,95 @@ h1{
 	display: flex;
 	justify-content: center;
 	height: 10%;
-	
 }
 input{
-	border-radius: 10px 10px 10px 10px;
+	border-radius: 10px;
 	height: 30px;
 	width: 30%;
 	color: black;
-	border-color: #0a6197;
-	box-shadow: #0a6197 1px 0 10px;
-}
-
-input#button-submit{
-	height: 30px;
-	width: 5%;
-	background-color: #0a6197;
-	color: #fff;
-}
-
-header{
-	display: flex;
-	position: relative;
-	justify-content: space-between;
-}
-
-.principale{
-	display: flex;
-	width: 50%;
-	justify-content: space-between;
-	flex: 1;
-	padding-top: 40px;
-	font-weight: bold;
-}
-li.grandparent{
-	width: 20%;
-}
-nav{
-	width: 80%;
-}
-.hover-color{
-	color: #003059;
-}
-a:hover span{
-  color: #0a6197!important;
-}
-ul.baby li{
 	padding: 10px;
+	/* border-color: #0a6197;
+	box-shadow: rgb(48, 31, 7) 1px 0 10px; */
+	
 }
-
-.text-video{
+input#button-submit {
+    height: 45px;
+    width: 4%;
+    background-color: #0a6197;
+    color: #fff;
+}
+h1{
 	display: flex;
-	flex-direction: column;
-	float: right;
-	padding: 70px;
-	padding-top: 100px;
-	text-align: center;
-	width: 30%;
+	align-items: flex-end;
+	justify-content: center;
+	height: 50%;
+	width: 100%;
+    color: #fff;
+	font-size: 50px;
+	padding-bottom: 5%;
+	text-shadow: rgb(48, 31, 7) 1px 0 10px;
+}
+.titre{
+    background-image: url(../images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 110%;
+    text-align: center;
+    justify-content: center;
+    animation-name: change;
+    transition: 15s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(../images/rico-meier-_2Dof1cRH0c-unsplash.jpg);
+    }
+    20%
+    {
+        background-image: url(../images/erik-witsoe-pvoQJym18Jg-unsplash.jpg);
+    }
+    40%
+    {
+        background-image: url(../images/varun-yadav-QhYTCG3CTeI-unsplash.jpg);
+    }
+    60%
+    {
+        background-image: url(../images/derek-sutton-uouH1bGxeeU-unsplash.jpg);
+    }
+    80%
+    {
+        background-image: url(../images/masaaki-komori--4pA83nGCR8-unsplash.jpg);
+    }
+    100%
+    {
+        background-image: url(../images/kamil-pitonak-6IEMJfojgOI-unsplash.jpg);
+    }
+}
+/* fin image */
+
+/* Espace Video */
+.section-text-video {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+.text-video {
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
+    /* padding: 120px; */
+    padding-top: 100px;
+    text-align: center;
+    width: 30%;
 }
 h2.text-video p.text-video{
 	display: flex;
@@ -290,11 +324,18 @@ h2{
 p{
 	color: #003059;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 23px;
 }
 a{
 	color: #0a6197;
 	text-decoration: underline;
 }
+span.p2{
+	padding-top: 10px;
+}
+/* fin espace video */
+
+/* Top destination du moment */
 h2.top{
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -303,57 +344,205 @@ h2.top{
 }
 
 .top-destination img{
-	width: 30%;
+	width: 95%;
 	padding: 20px;
+	height: 280px;
 }
+.top-destination {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 76%;
+    margin: auto;
+}
+/* fin top destination du moment */
 
 /* Presentation des admin */
-/* h2.presentation{ 
-	
+.presentation h2{
+	text-align: center;
 }
-*/
+.card{
+	text-align: center;
+}
+/* fin presentation */
+
+/* pop up user*/
+.text{
+	/* background-image: url(../images//gautier-salles-uffQnKuJ-hc-unsplash.jpg); */
+	position: absolute;
+	display: grid;
+}
+.text2{
+	position: absolute;
+	display: grid;
+}
+.body2 {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    /* justify-content: center; */
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    /* background: #dbf4ff; */
+}
+.btn {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	padding: 0.75em;
+	text-transform: uppercase;
+	background: none;
+	color: #2c2c2c;
+	border: 1px solid #4a4a4a;
+	transition: all 200ms;
+}
+.inscr {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 0.9rem;
+	padding: 0.75em;
+	text-transform: uppercase;
+	background: none;
+	color: #2c2c2c;
+	border: 1px solid #4a4a4a;
+	transition: all 200ms;
+}
+.btn:hover {
+	border: 1px solid #ababab;
+	color: #2c2c2c;
+	font-size: 1.1rem;
+}
+button {
+    border-radius: 10px;
+    /* height: 30px; */
+    /* width: 41%; */
+    display: contents;
+}
+button a{
+	text-decoration: none;
+	color: #fff ;
+}
+/* connexion */
 
 
-.content h1{
-    color: #fff;
-    font-size: 50px;
-    letter-spacing: 5px;
+.form-connexion{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+height: 175px;
 }
 
-.content a{
-    background: #85c1ee;
-    padding: 10px 24px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 20px;
+.modal-title{
+	color: #003059;
+	text-shadow:none;
+	font-size: xx-large;
+	font-weight: 400;
 }
-.content a:hover{
-    background: #034e88;
-    color: #fff;
+
+
+.input-connexion{
+    color: rgb(30, 79, 108);
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: rgb(222, 218, 218);
+    border-style: groove;
+    text-decoration-color: rgb(30, 79, 108);
+    font-family: Helvetica;
+    font-size: small;
+    font-style: normal;
+
 }
-@keyframes change{
-    0%
-    {
-        background-image: url(https://wallpaperaccess.com/full/1392629.jpg);
-    }
-    20%
-    {
-        background-image: url(https://i.pinimg.com/originals/c6/33/c2/c633c20ede82f0e0ced7d570dbe3a1f3.gif);
-    }
-    40%
-    {
-        background-image: url(https://c0.wallpaperflare.com/path/755/212/29/japan-tait%C5%8D-ku-sens%C5%8D-ji-asakusa-abbef1f5c70302fa27af02307c72382b.jpg);
-    }
-    60%
-    {
-        background-image: url(https://wallpaperaccess.com/full/1921187.jpg);
-    }
-    80%
-    {
-        background-image: url(https://s1.1zoom.me/b3062/701/Iceland_Winter_Sky_Mountains_Aurora_Snow_512906_1920x1080.jpg);
-    }
-    100%
-    {
-        background-image: url(://s1.1zoom.me/b5346/654/Bhttpsridges_Rivers_Evening_Italy_Rome_Cathedral_550636_1920x1080.jpg);
-    }
+
+
+
+.p-connexion {color: #076373;
+text-align: center;
+font-size: x-small;}
+
+#connexion {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+	color: white;
+	font-size: small;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #003059;
 }
+.Mdp{
+	font-size: small;
+}
+/* inscription */
+
+
+.form-inscription {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 450px;
+}
+
+.input-inscription{
+	color: rgb(30, 79, 108);
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: rgb(222, 218, 218);
+    border-style: groove;
+    text-decoration-color: rgb(30, 79, 108);
+    font-family: Helvetica;
+    font-size: small;
+    font-style: normal;
+}
+
+.label-label {color:#076373; 
+    font-size:x-small;
+}
+
+.p-inscription {color: #076373;
+text-align: center;
+font-size: x-small;}
+
+.input-inscription[type="checkbox"] {
+    color: #076373;
+    width: 75px;
+    height: 20px;
+    font-size: small;
+	float: left;
+	text-align: justify;
+ }
+
+
+
+
+
+.button-inscription:hover {
+    background-color: rgb(22, 57, 76);
+    border-color: rgb(30, 79, 108);
+}
+#inscription {
+	width: 100px;
+    height: 30px;
+    border-radius: 10px;
+	color: white;
+	font-size: small;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #003059;
+}
+.input-inscription:invalid{
+    border-color: red;
+}
+.inline{
+	font-size: small;
+	width: 500px;
+}
+/* #boutton-user .dropdown-menu.show {
+right: 0 !important;
+} */
+/* fin pop up user */
