@@ -149,8 +149,8 @@ div.globale {
         color: rgb(48, 85, 88);
     }
 
-  ul{
-        z-index: 30;
+  nav {
+        z-index: 40;
     }
     p{
         color: black;

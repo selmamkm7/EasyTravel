@@ -122,7 +122,8 @@ i{
 }
 .Icons{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	width: 200px;
 }
 .principale{
 	display: flex;
