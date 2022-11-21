@@ -111,7 +111,8 @@ i{
 }
 .Icons{
 	display:flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	width: 200px;
 }
 .principale{
 	display: flex;
@@ -423,36 +424,25 @@ button a{
 }
 /* connexion */
 
-.h1-connexion {
-    color: white;
-    font-weight: 600;
-    text-align: center;
 
+.form-connexion{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+height: 175px;
 }
 
-.div-connexion {
-    border: rgba(255, 255, 255, 0.519);
-    background-color: rgba(255, 255, 255, 0.723);
-    width: 800px;
-    height: 550px;
-    border-radius: 10px;
-    vertical-align: middle;
-    position: relative;
-    right: -21%;
+.modal-title{
+	color: #003059;
+	text-shadow:none;
+	font-size: xx-large;
+	font-weight: 400;
 }
 
-.form-connexion {
-    left: 50%;
-    top: 50%;
-    margin-left: -25%;
-    position: absolute;
-    margin-top: -25%;
-    vertical-align: middle;
-}
 
 .input-connexion{
     color: rgb(30, 79, 108);
-    size: 10;
     border-radius: 10px;
     width: 200px;
     height: 30px;
@@ -462,70 +452,42 @@ button a{
     font-family: Helvetica;
     font-size: small;
     font-style: normal;
-    position: relative;
-    right: -38%;
+
 }
 
-.label-connexion {color:#076373; 
-    font-size:small;
-}
+
 
 .p-connexion {color: #076373;
 text-align: center;
-font-size: small;}
+font-size: x-small;}
 
-.input-connexion[type="checkbox"] {
-    position: relative;
-    right: -23%;
-    color: #076373;
-    width: 100px;
-    height: 20px;
-    font-size: small;
-}
-
-
-.button-connexion {
-    background-color: rgb(30, 79, 108);
-    border-color: rgb(30, 79, 108);
+#connexion {
     width: 100px;
     height: 30px;
     border-radius: 10px;
-    color: white;
-    align-items: center;
-    position: relative;
-   right: -45%;
+	color: white;
+	font-size: small;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #003059;
+}
+.Mdp{
+	font-size: small;
 }
 /* inscription */
 
-.h1-inscription {
-    color: white;
-    font-weight: 600;
-    text-align: center;
-
-}
-
-.div-inscription {
-    border: rgba(255, 255, 255, 0.519);
-    background-color: rgba(255, 255, 255, 0.723);
-    width: 800px;
-    height: 550px;
-    border-radius: 10px;
-    vertical-align: middle;
-    position: relative;
-    right: -21%;
-}
 
 .form-inscription {
-    left: 50%;
-    top: 50%;
-    margin-left: -25%;
-    position: absolute;
-    margin-top: -25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 450px;
 }
 
 .input-inscription{
-    color: rgb(30, 79, 108);
-    size: 10;
+	color: rgb(30, 79, 108);
     border-radius: 10px;
     width: 200px;
     height: 30px;
@@ -535,51 +497,50 @@ font-size: small;}
     font-family: Helvetica;
     font-size: small;
     font-style: normal;
-    position: relative;
-    right: -38%;
 }
 
 .label-label {color:#076373; 
-    font-size:small;
+    font-size:x-small;
 }
 
 .p-inscription {color: #076373;
 text-align: center;
-font-size: small;}
+font-size: x-small;}
 
 .input-inscription[type="checkbox"] {
-    position: relative;
-    right: -23%;
     color: #076373;
-    width: 100px;
+    width: 75px;
     height: 20px;
     font-size: small;
+	float: left;
+	text-align: justify;
  }
 
-.inline{
-    width: unset;
-    position: relative;
-    right: -20%;
-    vertical-align: middle;
 
-}
+
+
+
 .button-inscription:hover {
     background-color: rgb(22, 57, 76);
     border-color: rgb(30, 79, 108);
 }
-.button-inscription {
-    background-color: rgb(30, 79, 108);
-    border-color: rgb(30, 79, 108);
-    width: 100px;
+#inscription {
+	width: 100px;
     height: 30px;
     border-radius: 10px;
-    color: white;
-    align-items: center;
-    position: relative;
-    right: -45%;
+	color: white;
+	font-size: small;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #003059;
 }
 .input-inscription:invalid{
     border-color: red;
+}
+.inline{
+	font-size: small;
+	width: 500px;
 }
 /* #boutton-user .dropdown-menu.show {
 right: 0 !important;
