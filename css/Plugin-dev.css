@@ -1,6 +1,6 @@
 body {
     height: 700px;
-    background-image: url(/images/image-fond.jpg);
+    background-image: url(/images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -10,6 +10,7 @@ body {
     color: white;
     font-weight: 600;
     text-align: center;
+    margin-top: 2%;
 
 }
 
@@ -19,9 +20,12 @@ body {
     width: 800px;
     height: 550px;
     border-radius: 10px;
-    vertical-align: middle;
-  position: relative;
-  right: -21%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position:relative;
+    right: -21%;
+    padding-bottom: 2%;
 }
 
 .form-inscription {
@@ -72,11 +76,19 @@ font-size: small;}
     vertical-align: middle;
 
 }
+<<<<<<< HEAD
+.submit:hover {
+    background-color: rgb(22, 57, 76);
+    border-color: rgb(30, 79, 108);
+}
+.submit {
+=======
 .button-inscription:hover {
     background-color: rgb(22, 57, 76);
     border-color: rgb(30, 79, 108);
 }
 .button-inscription {
+>>>>>>> ad4c40e9f10749230f624c5e68a21bb4b23b1f87
     background-color: rgb(30, 79, 108);
     border-color: rgb(30, 79, 108);
     width: 100px;
@@ -91,3 +103,7 @@ font-size: small;}
     border-color: red;
 }
 
+.BC{ position:absolute; 
+    right: 2%;
+    top: 2%;
+}
