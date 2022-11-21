@@ -40,6 +40,8 @@
 
 nav > ul li:hover .child{
     display: block;
+	list-style: none;
+	z-index: 30;	
 }
 
 .child {
@@ -175,19 +177,35 @@ h1{
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	height: 50%;
+	padding-top: 300px;
+	height: 20%;
 	width: 100%;
     color: #fff;
 	font-size: 50px;
 	padding-bottom: 5%;
-	text-shadow: #FC0 1px 0 10px;
+	text-shadow: #0a6197 1px 0 10px;
 }
 .titre{
-	background-image: url(../images//gautier-salles-uffQnKuJ-hc-unsplash.jpg);
+	background-image: url(../images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
 	height: 100vh;
 	background-position: center;
-	
+	overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 110%;
+    text-align: center;
+    justify-content: center;
+    animation-name: change;
+	transition: 15s;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
 }
+	
+
 .logo{
 	padding-bottom: 30px;
 	margin-top: 15px;
@@ -205,7 +223,7 @@ input{
 	width: 30%;
 	color: black;
 	border-color: #0a6197;
-	box-shadow: #FC0 1px 0 10px;
+	box-shadow: #0a6197 1px 0 10px;
 }
 
 input#button-submit{
@@ -217,6 +235,7 @@ input#button-submit{
 
 header{
 	display: flex;
+	position: relative;
 	justify-content: space-between;
 }
 
@@ -226,6 +245,7 @@ header{
 	justify-content: space-between;
 	flex: 1;
 	padding-top: 40px;
+	font-weight: bold;
 }
 li.grandparent{
 	width: 20%;
@@ -288,6 +308,52 @@ h2.top{
 }
 
 /* Presentation des admin */
-h2.presentation{
+/* h2.presentation{ 
 	
+}
+*/
+
+
+.content h1{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(https://wallpaperaccess.com/full/1392629.jpg);
+    }
+    20%
+    {
+        background-image: url(https://i.pinimg.com/originals/c6/33/c2/c633c20ede82f0e0ced7d570dbe3a1f3.gif);
+    }
+    40%
+    {
+        background-image: url(https://c0.wallpaperflare.com/path/755/212/29/japan-tait%C5%8D-ku-sens%C5%8D-ji-asakusa-abbef1f5c70302fa27af02307c72382b.jpg);
+    }
+    60%
+    {
+        background-image: url(https://wallpaperaccess.com/full/1921187.jpg);
+    }
+    80%
+    {
+        background-image: url(https://s1.1zoom.me/b3062/701/Iceland_Winter_Sky_Mountains_Aurora_Snow_512906_1920x1080.jpg);
+    }
+    100%
+    {
+        background-image: url(://s1.1zoom.me/b5346/654/Bhttpsridges_Rivers_Evening_Italy_Rome_Cathedral_550636_1920x1080.jpg);
+    }
 }

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Contact.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="css/Contact.css">
     <title>Voyage</title>
 </head>
 <body> 
@@ -17,8 +18,6 @@
 
         <input type="search" id="searchbar" name="search" placeholder="Où souhaitez-vous allez ?">
     </form>
-    
-    </header>   
     
    <div class="main">
 
@@ -33,7 +32,7 @@ Tu as besoin d’aide pour organiser ton prochain voyage (administratif, formali
 On te propose de remplir ce formulaire et de nous expliquer ta demande et ton projet d’évasion. Un membre de l’équipe te répondra au plus vite pour te proposer ses services. 
         </p>
         <br>
-        <br>
+
 </div >        
 <div id="formulaire">        
         <form>
@@ -42,15 +41,17 @@ On te propose de remplir ce formulaire et de nous expliquer ta demande et ton pr
             </label>
             <label>
                 <input id="fnamespace" type="text" name="prénom" placeholder="Prénom" required>
-            </label><br><br/><br/>
+            </label><br><br>
             <label>
-                <input id="mailspace"type="email" name="email" placeholder="Adresse mail" required>
-            </label><br><br/><br/>
+                <input id="mailspace"type="email" name="email" placeholder=" Adresse mail" required>
+            </label><br><br>
             <label>
-                <textarea id="messagebox"name="message" rows="13" cols="80" placeholder=" Votre message">
+                <textarea class="col-11.7 "id="messagebox"name="message" rows="8" cols="60" placeholder=" Votre message">
                 </textarea>
-            </label><br><br><br>
+            </label><br>
+            <div id="sendbutton">
             <button id="envoyer">Envoyer</button>
+        </div>
         </form><br>
         <br>
        
