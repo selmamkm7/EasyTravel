@@ -65,10 +65,10 @@ ul {
     padding: 0px;
 }
 li:hover {
-    background-color: #002f5998;
+    background-color: rgb(233,236,239);
 }
 .parent li:hover {
-    background-color: #002f5998;
+    background-color: rgb(233,236,239);
 }
 #menu{
 	display: flex;
@@ -339,7 +339,7 @@ h2.top{
 .top-destination img{
 	width: 95%;
 	padding: 20px;
-	height: 280px;
+	height: 250px;
 }
 .top-destination {
     display: flex;
@@ -468,7 +468,16 @@ font-size: x-small;}
 }
 .Mdp{
 	font-size: small;
+	text-align: center;
 }
+.form-Mdp{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+
 /* inscription */
 
 
