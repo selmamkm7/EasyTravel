@@ -1,0 +1,109 @@
+body {
+    height: 700px;
+    background-image: url(/images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1-inscription {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.div-inscription {
+    border: rgba(255, 255, 255, 0.519);
+    background-color: rgba(255, 255, 255, 0.723);
+    width: 800px;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position:relative;
+    right: -21%;
+    padding-bottom: 2%;
+}
+
+.form-inscription {
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+
+.input-inscription{
+    color: rgb(30, 79, 108);
+    size: 10;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: rgb(222, 218, 218);
+    border-style: groove;
+    text-decoration-color: rgb(30, 79, 108);
+    font-family: Helvetica;
+    font-size: small;
+    font-style: normal;
+    position: relative;
+    right: -38%;
+}
+
+.label-label {color:#076373; 
+    font-size:small;
+}
+
+.p-inscription {color: #076373;
+text-align: center;
+font-size: small;}
+
+.input-inscription[type="checkbox"] {
+    position: relative;
+    right: -23%;
+    color: #076373;
+    width: 100px;
+    height: 20px;
+    font-size: small;
+ }
+
+.inline{
+    width: unset;
+    position: relative;
+    right: -20%;
+    vertical-align: middle;
+
+}
+<<<<<<< HEAD
+.submit:hover {
+    background-color: rgb(22, 57, 76);
+    border-color: rgb(30, 79, 108);
+}
+.submit {
+=======
+.button-inscription:hover {
+    background-color: rgb(22, 57, 76);
+    border-color: rgb(30, 79, 108);
+}
+.button-inscription {
+>>>>>>> ad4c40e9f10749230f624c5e68a21bb4b23b1f87
+    background-color: rgb(30, 79, 108);
+    border-color: rgb(30, 79, 108);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    position: relative;
+   right: -45%;
+}
+.input-inscription:invalid{
+    border-color: red;
+}
+
+.BC{ position:absolute; 
+    right: 2%;
+    top: 2%;
+}

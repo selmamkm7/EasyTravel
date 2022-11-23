@@ -1,0 +1,113 @@
+body {
+    height: 700px;
+    background-image: url(/images/gautier-salles-uffQnKuJ-hc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+<<<<<<< HEAD
+
+h1 {
+=======
+.h1-connexion {
+>>>>>>> ad4c40e9f10749230f624c5e68a21bb4b23b1f87
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.div-connexion {
+    border: rgba(255, 255, 255, 0.519);
+    background-color: rgba(255, 255, 255, 0.723);
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+<<<<<<< HEAD
+    position:relative;
+    right: -21%;
+    display: flex;
+    justify-content: center;
+
+}
+
+article {
+    margin-top: 12.5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+input {
+=======
+    vertical-align: middle;
+    position: relative;
+    right: -21%;
+}
+
+.form-connexion {
+    left: 50%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+    vertical-align: middle;
+}
+
+.input-connexion{
+>>>>>>> ad4c40e9f10749230f624c5e68a21bb4b23b1f87
+    color: rgb(30, 79, 108);
+    size: 10;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    border-color: rgb(222, 218, 218);
+    border-style: groove;
+    text-decoration-color: rgb(30, 79, 108);
+    font-family: Helvetica;
+    font-size: small;
+    font-style: normal;
+<<<<<<< HEAD
+}
+
+p {color: #076373;
+    text-align: center;
+    font-size: small;}
+=======
+    position: relative;
+    right: -38%;
+}
+
+.label-connexion {color:#076373; 
+    font-size:small;
+}
+
+.p-connexion {color: #076373;
+text-align: center;
+font-size: small;}
+
+.input-connexion[type="checkbox"] {
+    position: relative;
+    right: -23%;
+    color: #076373;
+    width: 100px;
+    height: 20px;
+    font-size: small;
+}
+
+>>>>>>> ad4c40e9f10749230f624c5e68a21bb4b23b1f87
+
+.button-connexion {
+    background-color: rgb(30, 79, 108);
+    border-color: rgb(30, 79, 108);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;}
