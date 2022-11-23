@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+.container { 
+    position: fixed;
+    background-color: #003059;
+    border-radius: 10%;
+    padding: 15px;
+    top: 20vh;
+    left: 1.5%;
+}
+
+.grey{
+    color: yellow;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.container li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+.article{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+
+.voyage_1{
+    float: left;
+    height: 25vh;
+    width: 50%;
+    margin-top: 2vh;
+}
+
+p {
+    font-size: 2.2vh;
+}
+
