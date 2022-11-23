@@ -23,16 +23,21 @@
    
  <h2>Objet du message :</h2>
     <div class="para1"> 
-       <input type="text">
+        <label>
+            <input id="objet"type="email" name="email" placeholder="Objet du message" required>
+        </label> 
     </div>
 
     <h2>Votre message :</h2>
 
     <div class="para2">
-        <input type="text1">    
+        <label><br>
+            <textarea id="messagebox"name="message" rows="13" cols="80" placeholder="Votre message" width="500" height="450">
+            </textarea>
+        </label>  
     </div>
 
-    <button type="submit">Envoyer</button>
+    <a href="mailto:email@exemple.com"><button type="submit">Envoyer</button>
 
 <footer>  
     <link rel="stylesheet" href="/css/footerstyle.css">
