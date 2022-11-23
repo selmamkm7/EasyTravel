@@ -423,7 +423,7 @@ button a{
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-evenly;
+justify-content: space-between;
 height: 175px;
 }
 
@@ -485,8 +485,8 @@ justify-content: space-evenly;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-evenly;
-	height: 450px;
+	justify-content: space-between;
+
 }
 
 .input-inscription{

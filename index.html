@@ -83,13 +83,7 @@
                 </ul>
               </li>
                 <li class="grandparent"><a href="#"><span class="hover-color">Nos Formules</span></a>
-                          <!-- <ul class="child">
-                            <li><a href="#"><span class="hover-color">Sejour</span></a></li>
-                            <li><a href="#"><span class="hover-color">Escapade</span></a></li>
-                            <li><a href="#"><span class="hover-color">Road-Trip</span></a></li>
-                            <li><a href="#"><span class="hover-color">City-Break</span></a></li>
-                          </ul> -->
-                  </li>
+                </li>
               
               <li class="grandparent">
                 <a tabindex="-1" href="#"><span class="hover-color">A Propos</span></a>
@@ -113,12 +107,12 @@
                             <li><a class="dropdown-item" href="#"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalB">Inscription</button></a></li>
                           </ul>
                         </div>
-                     <button type="button" class="btn btn-light" id="exampleModalD"><i class="fa-solid fa-cart-shopping"></i></button>
+                     
+                    </a>
+                    <a  class="cart" href="#">
+                      <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalD"><i class="fa-solid fa-cart-shopping" width="40px"></i></button>
                     </a>
               <!-- Menu User -->
-
- 
-
 <!-- Modal -->
 
 
@@ -196,7 +190,17 @@
     </div></form>
   </div>
 </div>
+</div>
 
+<!-- cart -->
+<div class="modal fade" id="exampleModalLabelC" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscription</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
  <div class="text2">
      <h1 class="h1-inscription">Inscription</h1>
      <div class="div-inscription"><br><br><br><br><br><br><br><br><br><br>
@@ -228,26 +232,32 @@
          </label><br><br>
          <button class="button-inscription" type="submit" name="Envoyer">Valider</button>
      </div>
- </div> 
+ </div> </div></div></div></div>
 
 
- <div class="modal" tabindex="-1" id="exampleModalD">
-  <div class="modal-dialog">
+
+ <div class="modal fade mw-100"  id="exampleModalD" tabindex="-1" aria-labelledby="exampleModalLabelC" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h1 class="modal-title fs-5" id="exampleModalLabelC">Panier</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+        <div class="div-connexion">
+          <div class="dropdown">
+            <div id="cart">
+                <p>Votre panier est vide</p>
+            </div>
+            <!-- <ul id="cart-dropdown" hidden>
+                <li id="empty-cart-msg"><a>Votre panier est vide</a></li>
+                <li class="go-to-cart hidden"><a href="/panier/">Voir le panier</a></li>
+            </ul> -->
+        </div>
     </div>
   </div>
-</div>
+</div></div>
+ 
  <!-- Fin Menu User -->
          </div>
         </header>
