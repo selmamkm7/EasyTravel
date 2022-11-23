@@ -1,68 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon espace</title>
+        <link rel="stylesheet" href="./Monespace.css">
+    </head>
+    <body>
+        <h1>Mon espace</h1>
+        <img src="./images/photodeprofil.jpeg" class="profil">
+        <div class="container">
+            <nav>
+                <li><a href="./Monespace.html" class="grey" href="">Mon espace</a></li> 
+                <li><a href="./Historiquedestination.html" class="nav" href="">Historique des destinations</a></li>
+                <li><a href="./prochainedestination.html" class="nav" href="">Prochaines destinations</a></li>
+                <li><a href="./mesdestinationscoupdecoeur.html" class="nav" href="">Destinations coup de coeur</a></li>
+                <li><a href="./Voyageencours.html" class="nav" href="">Voyage en cours</a></li>
+                <li><a href="./Monconseiller.html" class="nav" href="">Mon conseiller voyage</a></li>
+            </nav>
+        </div>
+        <div class="form">
+            <form method="get">
+                <p>Nom :
+                        <input type="text" name="nom" placeholder="Dupont">
+
+                </p>
+
+                <p>Prénom :
+                        <input type="text" name="prénom" placeholder="Jean-Yves">
+                </p>
+
+                <p>Date de naissance :
+                        <label>
+                        <input type="date" name="date">
+                        <label>
+                        <br><br>
+                </p>
+
+                <p>Sexe :
+                        <label>
+                        <input type="radio" name="Homme" value="Homme"> Masculin
+                        </label>
+                        <label>
+                        <input type="radio" name="Femme" value="Femme"> Feminin
+                        </label>
+                        <br><br>
+                </p>
+
+                <p>Téléphone :
+                        <input type="text" name="téléphone" placeholder="07-56-34-92-18">
+                </p>
+
+                <p>Adresse mail :
+                        <input type="text" name="mail" placeholder="dupontj-y@gmail.com">
+                </p>
+
+                <p>Adresse postal :
+                        <input type="text" name="adresse" placeholder="22 rue de la liberté">
+                </p>
+
+                <p>Ville :
+                        <input type="text" name="ville" placeholder="59000, Lille">
+                </p>
+
+                <p>Numéro de carte :
+                        <input type="text" name="numero" placeholder="XXXX XXXX XXXX 2483">
+                </p>
+
+                <p>Date d'expiration :
+                        <label>
+                        <input type="years" name="date" placeholder="MM/AAAA">
+                        <label>
+                        <br><br>
+                </p>
+
+                <p>CVC :
+                     <input type="text" name="cvc" placeholder="XXX">
+                </p>
+                <button type="submit">Modifier mes informations</button>
+            </form>
+        </div>
     
-<img src="./images/avatar-homme.png">
-<p><center><h1>Mon espace</h1></center></p>
-
-
-<div> <br> <p><h4>Mon espace</h4></p> 
-<p><h4>Historique des destinations</h4></p>    
-<p><h4>Prochaines destinations</h4></p>    
-<p><h4>Destinations coup de coeur</h4></p>    
-<p><h4>Voyage en cours</h4></p>    
-<p><h4>Mon conseiller voyage</h4></p>    
-<br> </div>
-
-<form method="get">
-<p><center>Nom :
-<input type="text" name="nom" placeholder="Dupont"></center></p>
-
-<p><center>Prénom :
-    <input type="text" name="prénom" placeholder="Jean-Yves"></center></p>
-
-<p><center>Date de naissance :
-<label>
-    <input type="date" name="date">
-<label><br><br></center></p>
-
-    <p><center>Sexe :
-<label>
-    <input type="radio" name="Homme" value="Homme"> Masculin
-</label>
-<label>
-    <input type="radio" name="Femme" value="Femme"> Feminin
-</label><br><br></center></p>
-
-<p><center>Téléphone :
-    <input type="text" name="téléphone" placeholder="07-56-34-92-18"></center></p>
-
-<p><center>Adresse mail :
-    <input type="text" name="mail" placeholder="dupontj-y@gmail.com"></center></p>
-
-<p><center>Adresse postal :
-    <input type="text" name="adresse" placeholder="22 rue de la liberté"></center></p>
-
-<p><center>Ville :
-    <input type="text" name="ville" placeholder="59000, Lille"></center></p>
-
-<p><center>Numéro de carte :
-    <input type="text" name="numero" placeholder="XXXX XXXX XXXX 2483"></center></p>
-
-<p><center>Date d'expiration :
-    <label><input type="week" name="date" placeholder="MM/AAAA"><label><br><br></center></p>
-
-<p><center>CVC :
-    <input type="text" name="cvc" placeholder="XXX"></center></p>
-
-<center><button type="submit"></button>Envoyer</center> 
-
-
-</form>
-</body>
+    <footer>  
+        <link rel="stylesheet" href="/css/footerstyle.css">
+        <div class="footerlogo">
+            <img src="./images/logo_easytravel.png" alt="business logo" width="100px" height="100px">
+        </div>
+          <div class="footermenu">
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a> 
+            <a href="#">Mentions Legales</a>
+          </div>
+          <div class="copy">
+              <span class="footercopy">Copyright &copy; 2022</span>
+           </div>    
+     </footer>
+  </body>      
 </html>

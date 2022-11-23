@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+}
+
+
+
+.container { 
+    position: fixed;
+    background-color: #003059;
+    border-radius: 10%;
+    padding: 15px;
+    top: 20vh;
+    left: 1.5%;
+}
+
+.grey{
+    color: yellow;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.container li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+h1 {
+    text-align: center;
+    color: #003059;
+}
+h2 {
+    text-align: center;
+    color: black;
+}
+h4 {
+    text-align: center;
+}
+.image {
+    margin-left: 350px;
+}
+
+form {
+    text-align: justify;
+    margin-left: 630px;
+}
