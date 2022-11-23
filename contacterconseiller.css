@@ -21,7 +21,7 @@ h1{
     left:6%;
 }
 
-.container { 
+.menufix { 
     position: fixed;
     background-color: #003059;
     border-radius: 10%;
@@ -37,7 +37,7 @@ h1{
 }
 
 
-.container li{
+.menufix li{
     list-style: none;
     margin: 20px;
 }
@@ -59,19 +59,15 @@ h2 {
 .para1 {
     margin-left: 300px;
     text-align: justify;
-    background-color: gray;
-    padding: 5px;
 }
 
 .para2 {
     margin-left: 300px;
     text-align: justify;
-    background-color: gray;
-    padding: 5px;
 }
 
 input {
-    width: 26.3cm;
+    width: 15.3cm;
     height: 2cm;
 }
 
@@ -79,6 +75,6 @@ button{
     border-radius: 20px;
     background-color:#003059;
     color: white;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 15px;
 }

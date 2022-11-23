@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Mes destinations coup de coeur</title>
     <link rel="stylesheet" href="./mesdestinationscoupdecoeur.css">
+    <link rel="stylesheet" href="/css/footerstyle.css">
+
 </head>
 <body>
  <!-- menu deroulant -->
@@ -99,11 +101,11 @@
                       </a>
                     
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#"> <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalA">
-                          Connexion
+                        <li><a class="dropdown-item" href="http://127.0.0.1:5501/index.html"> <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalA">
+                          Deconnexion
                         </button> </a></li>
-                        <li><a class="dropdown-item" href="#"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalB">Inscription</button></a></li>
-                      </ul>
+                        <!-- <li><a class="dropdown-item" href="#"><button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalB">Inscription</button></a></li>
+                      </ul> -->
                     </div>
                  
                 </a>
@@ -118,10 +120,10 @@
 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
 <div class="modal-content">
   <div class="modal-header">
-    <h1 class="modal-title fs-5" id="exampleModalLabel">Connexion</h1>
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Deconnexion</h1>
     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
   </div>
-  <div class="modal-body">
+  <!-- <div class="modal-body">
     <div class="div-connexion">
       <form action="get" class="form-connexion">
       <label class="label-connexion">
@@ -139,12 +141,12 @@
   <div class="modal-footer">
     <button id="connexion" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
   </div></form>
-</div>
+</div> -->
 </div>
 </div>
 
 
-<div class="modal fade" id="exampleModalB" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModalB" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 <div class="modal-dialog">
 <div class="modal-content">
   <div class="modal-header">
@@ -188,7 +190,7 @@
 </div></form>
 </div>
 </div>
-</div>
+</div> -->
 
 <!-- cart -->
 <div class="modal fade" id="exampleModalLabelC" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -256,9 +258,8 @@
      </div>
     </header>
 <!-- fin menu deroulant -->
-    <p><h1>Mes destinations coup de coeur</h1></p>
 
-    <div class="container">
+    <div class="menufix">
         <nav>
             <li><a href="./Monespace.html" class="nav" href="">Mon espace</a></li> 
             <li><a href="./Historiquedestination.html" class="nav" href="">Historique des destinations</a></li>
@@ -275,10 +276,10 @@
             <div class="voyage_1">
                 <h3 class="h3-voyage">Informations sur ce coup de coeur :</h3>
                 <p>
-                    Zanzibar est une destination à faire en couple. Idéalement pour un voyage de noces; 
-                    ou pour demander en mariage sa conjointe. Vous allez adorer le paysage de cette ville.
-                    Chaque maison possède sa propre piscine avec vue sur la mer. C'est une destination pour 
-                    se reposer et admirer de beaux paysages.
+                    Zanzibar est un archipel tanzanien situé au large des côtes de l'Afrique de l'Est. Sur l'île principale 
+                    d'Unguja, familièrement appelée "Zanzibar", se trouve Stone Town, centre de commerce historique aux influences 
+                    swahilies et islamiques. Ses allées sinueuses comprennent des minarets, des portes sculptées et des monuments du 
+                    XIXe siècle comme la House of Wonders.
                 </p>
             </div>
         </div>
@@ -290,10 +291,10 @@
             <div class="voyage_1">
                 <h3 class="h3-voyage">Informations sur ce coup de coeur :</h3>
                 <p>
-                    GRECE est l'endroit idéal pour les couples. Parfait pour une lune de miel, 
-                    ou pour faire une proposition de mariage à son épouse. Vous serez séduit par le paysage de cette ville.
-                    Chaque maison dispose de sa propre piscine face à la mer. C'est la destination idéale. 
-                    se reposer et admirer des paysages magnifiques.
+                    La Grèce est un pays du sud-est de l'Europe, composé de milliers d'îles parsemant les mers Égée et Ionienne. 
+                    Influente pendant l'Antiquité, elle est souvent surnommée le berceau de la civilisation occidentale. Athènes, 
+                    sa capitale, regroupe de nombreux sites d'intérêt, notamment l'Acropole, datant du Ve siècle avant JC, où se 
+                    trouve le Parthénon.
                 </p>
             </div>
         </div>
@@ -303,10 +304,10 @@
         <div class="voyages">
             <img src="./images/dubai.webp" class="voyage_1">
             <div class="voyage_1">
-                <h3 class="h3-voyage">Informations sur ce coup de coeur :</h3>
-                <p>DUBAI Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                   has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                   took a galley of type and scrambled it to make a type specimen book. 
+              <h3 class="h3-voyage">Informations sur ce coup de coeur :</h3>
+                <p>Fondée au XVIIIe siècle, Dubaï reste un bourg modeste et isolé du monde qui vit essentiellement de la pêche 
+                   aux perles à la fin du XIXe siècle. À cette époque, la ville et l'émirat qui l'entoure prennent de l'importance 
+                   en participant à la création des États de la Trêve (en anglais : Trucial States) en 1853.
                 </p>
             </div>
         </div>
@@ -317,9 +318,9 @@
             <img src="./images/jordanie.jpeg" class="voyage_1">
             <div class="voyage_1">
                 <h3 class="h3-voyage">Informations sur ce coup de coeur :</h3>
-                <p>JORDANIE Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                   has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                   took a galley of type and scrambled it to make a type specimen book. 
+                <p>La Jordanie est un pays arabe situé sur la rive orientale du Jourdain. Il se compose de monuments anciens,
+                   de réserves naturelles et de stations balnéaires. Le pays abrite notamment le célèbre site archéologique 
+                   de Pétra, la capitale nabatéenne fondée autour de 300 ans av. J-C.
                 </p>
             </div>
         </div>
@@ -330,23 +331,18 @@
             <img src="./images/egypte.webp" class="voyage_1">
             <div class="voyage_1">
                 <h3 class="h3-voyage">Informations sur ce coup de coeur :</h3>
-                <p>EGYPTE Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
-                   has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-                   took a galley of type and scrambled it to make a type specimen book. 
+                <p>L'Égypte est un pont entre l'Afrique du Nord-Est et le Moyen-Orient et son histoire remonte à l'époque 
+                   des pharaons. Des monuments millénaires bordent les berges de la fertile vallée du Nil, notamment le 
+                   sphinx et les pyramides colossales de Gizeh. La ville de Louxor abrite le temple de Karnak et ses 
+                   hiéroglyphes, ainsi que les tombeaux de la vallée des rois. 
                 </p>
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-=======
+
 
 
     <footer>  
-        <link rel="stylesheet" href="/css/footerstyle.css">
         <div class="footerlogo">
             <img src="./images/logo_easytravel.png" alt="business logo" width="100px" height="100px">
         </div>
@@ -359,6 +355,8 @@
               <span class="footercopy">Copyright &copy; 2022</span>
            </div>    
      </footer>
- </body>   
->>>>>>> b861e7c70be09021e72b810ee2b1f0eaea5c7071
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</body>
 </html>
