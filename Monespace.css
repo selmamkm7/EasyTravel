@@ -3,11 +3,7 @@ body{
     padding: 0;
 }
 
-h1{
-    text-align: center;
-    color: #003059;
-    margin-bottom: 5vh;
-}
+
 
 .profil{
     height: 100px;
@@ -46,6 +42,14 @@ h1{
     text-transform: none;
     color:white;
 }
+
+
+h1{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+}
+
 
 .form{
     align-items: center;

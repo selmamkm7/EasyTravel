@@ -3,14 +3,15 @@
     padding: 0;
 }
 
-.h1-destination{
-    text-align: center;
-    color: #003059;
-    margin-bottom: 5vh;
-}
-
-.h3-voyage {
-    margin-bottom: 20px;
+.profil{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    display: block;
+    top: 7vh;
+    left:6%;
 }
 
 .menufix { 
@@ -18,10 +19,8 @@
     background-color: #003059;
     border-radius: 10%;
     padding: 15px;
-    top: 20vh;
+    top: 200px;
     left: 1.5%;
-    width: calc(20%);
-    height: 40%;
 }
 
 .grey{
@@ -35,6 +34,36 @@
     list-style: none;
     margin: 20px;
 }
+
+.nav{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+}
+
+.h1-destination{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+}
+
+.h3-voyage {
+    margin-bottom: 20px;
+}
+
 
 .nav-destination{
     text-decoration: none;
