@@ -3,6 +3,57 @@
     padding: 0;
 }
 
+.profil{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    display: block;
+    top: 7vh;
+    left:6%;
+}
+
+.menufix { 
+    position: fixed;
+    background-color: #003059;
+    border-radius: 10%;
+    padding: 15px;
+    top: 200px;
+    left: 1.5%;
+}
+
+.grey{
+    color: yellow;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.menufix li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+}
+
 .h1-destination{
     text-align: center;
     color: #003059;
@@ -13,6 +64,7 @@
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .menufix { 
     position: fixed;
     background-color: #003059;
@@ -35,6 +87,8 @@
     list-style: none;
     margin: 20px;
 }
+=======
+>>>>>>> 398b60997ddc3409d1c76622d90f255d10259a8b
 
 .nav-destination{
     text-decoration: none;
