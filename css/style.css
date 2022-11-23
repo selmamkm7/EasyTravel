@@ -103,12 +103,7 @@ ul.baby li{
 	min-width: 191px;
 	text-align: center;
 }
-.Icons i{
-	color: #003059;
-}
-i{
-	font-size: 400px !important;
-}
+
 .Icons{
 	display:flex;
 	justify-content: space-evenly;
@@ -120,6 +115,7 @@ i{
 	justify-content: space-between;
 	flex: 1;
 	padding-top: 40px;
+	/* z-index: 99; */
 }
 header{
 	display: flex;
@@ -224,6 +220,7 @@ input#button-submit {
     width: 4%;
     background-color: #0a6197;
     color: #fff;
+	margin-top: 10px;
 }
 h1{
 	display: flex;
@@ -543,9 +540,7 @@ font-size: x-small;}
 	justify-content: center;
 	background-color: #003059;
 }
-.input-inscription:invalid{
-    border-color: red;
-}
+
 .inline{
 	font-size: small;
 	width: 500px;
@@ -595,4 +590,6 @@ input{
     color: rgba(4, 84, 95, 0.571);
     font-size: x-large;
 }
+
+
 /* fin pop up user */

@@ -1,4 +1,4 @@
-h1 {
+.preparer {
     color: white;
     text-align: center;
 padding-top: 150px;
@@ -19,14 +19,15 @@ padding-bottom: 150px;
     margin-right: 2%;
     margin-top: 2%;
     text-align: justify;
-    font-size: large;
+    font-size: medium;
 }
 
-h3 {
+h5 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 1%;
-
+    color: rgb(48, 85, 88);
+    font-size: small;
 }
 
 .B {
@@ -36,6 +37,7 @@ h3 {
 width: 960px; 
    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 
 .AB {
@@ -52,11 +54,12 @@ margin-bottom: 2%;
     margin-left: 1%;
 width: 980px; 
    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;   
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: small;  
 }
 
 div.photos {
-    margin-top: 40%;
+    margin-top: 490px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -83,13 +86,14 @@ section.resume {
     padding-left: 1%;
     padding-bottom: 2%;
     margin-top: 3%;
+    font-size: medium;
 
 }
 h5 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(48, 85, 88);
     padding-left: 1%;
-    font-size: medium;
+    font-size: large;
 }
 
 section.articles {
@@ -128,6 +132,7 @@ div.globale {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2%;
     margin-right: 2%;
+    font-size: small;
 }
 
 .E {
@@ -135,6 +140,7 @@ div.globale {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2%;
     margin-right: 2%;
+    font-size: small;
 }
 
 .F{
@@ -143,7 +149,7 @@ div.globale {
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 2%;
     margin-right: 2%;
-    font-size: large}
+    font-size: medium}
 
     b{
         color: rgb(48, 85, 88);
@@ -156,5 +162,5 @@ div.globale {
         color: black;
         margin-left: 3%;
         margin-right: 3%;
-        font-size: medium;
+        font-size: small;
     }

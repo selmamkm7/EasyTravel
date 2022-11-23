@@ -3,15 +3,23 @@ body{
     background-position: center center;
     background-attachment:fixed;
     background-size:contain;
-   
 
+}
 
+header{
+    background-color: white;
 }
 
 .card{
     padding-left: 5px; 
     background-color: rgba(240, 248, 255, 0.803);
     border-radius:15px ;
+    margin-top: 20px;
+    
+}
+
+.V .card{
+    z-index: -1;
 }
 
 
