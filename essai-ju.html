@@ -120,8 +120,8 @@
   
 
 <a  class="cart" href="#">
-                      <i class="fa-solid fa-cart-shopping" width="40px"></i>
-                    </a>
+  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalD"><i class="fa-solid fa-cart-shopping" width="40px"></i></button>
+</a>
                     <!-- <a class="user" href="#">
                       <i class="fa-solid fa-user-large"></i>
                     </a> -->
@@ -133,11 +133,11 @@
  
 
 <!-- Modal -->
-<div class="modal fade mw-100"  id="exampleModalA" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal fade mw-100"  id="exampleModalA" tabindex="-1" aria-labelledby="exampleModalLabelA" aria-hidden="true" >
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Connexion</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabelA">Connexion</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -152,7 +152,7 @@
           <p class="p-connexion">*doit contenir au moins 8 caractéres, dont une <br> majuscule, un chiffre et un caractére spécial.</p>  
           
         <br>
-        <a href=""> <p class="Mdp"> Mot de passe oublié</p></a>
+        <a href="#"> <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModalC"> Mot de passe oublié</button></a>
        </div>
       </div>
       <div class="modal-footer">
@@ -163,11 +163,11 @@
 </div>
 
 
-<div class="modal fade" id="exampleModalB" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModalB" tabindex="-1" aria-labelledby="exampleModalLabelB" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Inscription</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabelB">Inscription</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -195,8 +195,6 @@
                   </label>
 
 
-
-<br>
                   <article class="label-inscription">
                   <label class="label-inscriptionZ">
                     <input class="input-inscription" type="checkbox" name="CGV-NL" id="accepte"> <p class="inline">J'accepte les conditions générales de ventes </p>
@@ -209,6 +207,53 @@
         <button id="inscription" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
       </div>
     </div></form>
+  </div>
+</div> 
+</div>
+
+
+<div class="modal fade mw-100"  id="exampleModalC" tabindex="-1" aria-labelledby="exampleModalLabelC" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabelC">Mot de passe oublié</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="div-connexion">
+          <form action="get" class="form-Mdp">
+          <label class="label-connexion">
+              <input class="input-connexion" type="email" name="email" placeholder="Adresse mail" required> <br>
+          </label><br>
+          <p class="Mdp"> Un email va vous être envoyé vous permettant de créer <br> un nouveau mot de passe. </p>
+      </div>
+      <div class="modal-footer">
+        <button id="connexion" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
+      </div></form>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade mw-100"  id="exampleModalD" tabindex="-1" aria-labelledby="exampleModalLabelC" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabelC">Mot de passe oublié</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="div-connexion">
+          <form action="get" class="form-Mdp">
+          <label class="label-connexion">
+              <input class="input-connexion" type="email" name="email" placeholder="Adresse mail" required> <br>
+          </label><br>
+          <p class="Mdp"> Un email va vous être envoyé vous permettant de créer <br> un nouveau mot de passe. </p>
+      </div>
+      <div class="modal-footer">
+        <button id="connexion" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
+      </div></form>
+    </div>
   </div>
 </div>
 
