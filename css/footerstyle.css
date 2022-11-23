@@ -1,4 +1,4 @@
-.footer{
+footer{
     background: rgb(0,48,89);
     background: linear-gradient(0deg, rgba(0,48,89,1) 0%, rgba(0,48,89,0.9652193641128326) 33%,rgba(0,48,89,0.752334210051208) 66%, rgba(0,48,89,0.1080765069699755) 100%);    
     display: flex;
