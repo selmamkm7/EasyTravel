@@ -64,6 +64,31 @@ h1{
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+.menufix { 
+    position: fixed;
+    background-color: #003059;
+    border-radius: 10%;
+    padding: 15px;
+    top: 20vh;
+    left: 1.5%;
+    width: calc(20%);
+    height: 40%;
+}
+
+.grey{
+    color: yellow;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.menufix li{
+    list-style: none;
+    margin: 20px;
+}
+=======
+>>>>>>> 398b60997ddc3409d1c76622d90f255d10259a8b
 
 .nav-destination{
     text-decoration: none;
