@@ -21,7 +21,7 @@ h1{
     left:6%;
 }
 
-.container { 
+.menufix { 
     position: fixed;
     background-color: #003059;
     border-radius: 10%;
@@ -37,7 +37,7 @@ h1{
 }
 
 
-.container li{
+.menufix li{
     list-style: none;
     margin: 20px;
 }
