@@ -113,14 +113,14 @@ h2 {
 @keyframes change{
     0%
     {
-        background-image: url(./roadtripfloride.jpeg);
+        background-image: url(./images/roadtripfloride.jpeg);
     }
     50%
     {
-        background-image: url(./floride1.webp);
+        background-image: url(./images/floride1.webp);
     }
     100%
     {
-        background-image: url(./floride2.jpeg);
+        background-image: url(./images/floride2.jpeg);
     }
 }
