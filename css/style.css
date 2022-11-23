@@ -6,17 +6,6 @@
 /* fin general */
 
 /* menu deroulant */
-a.user{
-	/* position: absolute;
-	left: 94%; */
-	/* width: 50px; */
-}
-a.cart{
-	/* position: absolute; */
-	/* left: 85%; */
-}
-
-
 .parent {
     /* display: block; */
     position: relative;
@@ -139,15 +128,6 @@ header{
 /* fin menu deroulant */
 
 /* Bulles */
-.svg-inline--fa {
-	/* display: var(--fa-display,inline-block);
-	height: 2em;
-	width: 4em;
-	overflow: visible; */
-	/* vertical-align: -0.125em; */
-	/* padding: 11px;
-	margin-top: -15px; */
-}
 .contact{
 	background-color: #003059;
 	/* border:  5px bold #003059; */
@@ -211,33 +191,11 @@ input#Envoyer {
 	/* width: 305px; */
 }
 .icons i{
-<<<<<<< HEAD
-	color: #003059;
-	height: ;
-}
-/*
-.icon{
-	display:flex;
-	justify-content: flex-end;
-	align-content: flex-start;
-	
-} */
-h1{
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	height: 50%;
-	width: 100%;
-    color: #fff;
-	font-size: 50px;
-	padding-bottom: 5%;
-=======
 	color: #fff;
 	padding-left: 10px;
 }
 h4{
 	padding-bottom: 40px;
->>>>>>> ad4c40e9f10749230f624c5e68a21bb4b23b1f87
 }
 /* fin bulles */
 
