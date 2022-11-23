@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+    border:5px;
+}
+
+.profil{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    display: block;
+    top: 7vh;
+    left:6%;
+}
+
+.container { 
+    position: fixed;
+    background-color: #003059;
+    border-radius: 10%;
+    padding: 15px;
+    top: 200px;
+    left: 1.5%;
+}
+
+.grey{
+    color: yellow;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+.container li{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav{
+    text-decoration: none;
+    text-transform: none;
+    color:white;
+}
+
+h2 {
+    color: #003059;
+    margin-left: 300px;
+    border-style: #003059,solid, 5px;
+    width: 200PX;
+    
+}
+
+.para1 {
+    margin-left: 300px;
+    text-align: justify;
+    background-color: gray;
+    padding: 5px;
+}
+
+.para2 {
+    margin-left: 300px;
+    text-align: justify;
+    background-color: gray;
+    padding: 5px;
+}
+
+input {
+    width: 26.3cm;
+    height: 2cm;
+}
+
+button{
+    border-radius: 20px;
+    background-color:#003059;
+    color: white;
+    margin-left: 700px;
+    margin-top: 15px;
+}
