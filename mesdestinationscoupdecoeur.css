@@ -49,10 +49,13 @@ h1{
 }
 
 .voyage_1{
-    float: left;
     height: 25vh;
     width: 50%;
     margin-top: 2vh;
+}
+
+.voyages{
+    display: flex;
 }
 
 p {
