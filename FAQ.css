@@ -3,7 +3,10 @@ h1{text-align: center;
     font-size: 5rem;
     color: #003059;
 
-};
+}
+.faq-contain{
+  margin-bottom: 50px;
+}
 .btn { 
     color: #FFFFFF; 
     background-color: #003059; 
@@ -49,3 +52,9 @@ h1{text-align: center;
     color: #003059; 
     background-color: #003059; 
   }
+
+  .footer{
+    width: 100%;
+  }
+
+  
