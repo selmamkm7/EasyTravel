@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-h1{
+.h1-destination{
     text-align: center;
     color: #003059;
     margin-bottom: 5vh;
@@ -13,13 +13,15 @@ h1{
     margin-bottom: 20px;
 }
 
-.container { 
+.container1 { 
     position: fixed;
     background-color: #003059;
     border-radius: 10%;
     padding: 15px;
     top: 20vh;
     left: 1.5%;
+    width: calc(20%);
+    height: 35%;
 }
 
 .grey{
@@ -28,13 +30,12 @@ h1{
     text-transform: none;
 }
 
-
-.container li{
+.container1 li{
     list-style: none;
     margin: 20px;
 }
 
-.nav{
+.nav-destination{
     text-decoration: none;
     text-transform: none;
     color:white;
@@ -121,9 +122,9 @@ ul {
     margin: 0;
     padding: 0px;
 }
-li:hover {
+/* li:hover {
     background-color: rgb(233,236,239);
-}
+} */
 .parent li:hover {
     background-color: rgb(233,236,239);
 }
