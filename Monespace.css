@@ -3,21 +3,17 @@ body{
     padding: 0;
 }
 
-h1{
-    text-align: center;
-    color: #003059;
-    margin-bottom: 5vh;
-}
+
 
 .profil{
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     border-radius: 50%;
     object-fit: cover;
-    position: absolute;
+    position: fixed;
     display: block;
-    top: 7vh;
-    left:6%;
+    top: 170px;
+    left:120px;
 }
 
 .menufix { 
@@ -25,20 +21,26 @@ h1{
     background-color: #003059;
     border-radius: 10%;
     padding: 15px;
-    top: 200px;
+    top: 320px;
     left: 1.5%;
+    width: 270px;
+    height: 300px;
 }
 
 .grey{
     color: yellow;
     text-decoration: none;
     text-transform: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .menufix li{
     list-style: none;
     margin: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav{
@@ -47,10 +49,21 @@ h1{
     color:white;
 }
 
+
+.espace{
+    text-align: center;
+    color: #003059;
+    margin-bottom: 5vh;
+    text-shadow: none;
+}
+
+
 .form{
     align-items: center;
     text-align: center;
+    font-size: small;
 }
+
 
 form button{
     border-radius: 20px;
@@ -60,4 +73,25 @@ form button{
 
 form input{
     color: #003059;
+}
+ p{
+    font-size: medium;
+ }
+
+ input{
+    width: 200px;
+    height: 30px;
+    font-size: small;
+    align-items:center;
+ }
+
+ .date{
+    height: 35px;
+ }
+
+.radio{
+    width: 70px;
+height: 20px;
+margin-top: 5px;
+
 }

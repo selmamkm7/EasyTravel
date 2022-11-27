@@ -4,6 +4,7 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+
 }
 .footermenu{
     
@@ -22,4 +23,7 @@ footer{
     align-items: flex-end;
     color: rgba(250, 235, 215, 0.474);
     
+}
+.ft{
+    align-items: flex-end;
 }

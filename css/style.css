@@ -482,13 +482,8 @@ justify-content: space-evenly;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-<<<<<<< HEAD
-	justify-content: space-evenly;
-	height: 500px;
-=======
 	justify-content: space-between;
 
->>>>>>> a8ee60c87117c429e97c06907c33c9096b74d973
 }
 
 .input-inscription{

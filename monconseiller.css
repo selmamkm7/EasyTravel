@@ -4,31 +4,25 @@ body{
     padding: 0;
 }
 
-h1{
+.conseil{
     text-align: center;
     color: #003059;
-    margin-bottom: 5vh;
-    margin-top: 100px;
+    text-shadow: none;
+    padding-bottom: 15px;
 }
 
-.profil{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    position: absolute;
-    display: block;
-    top: 7vh;
-    left:6%;
-}
 
 .menufix { 
     position: fixed;
     background-color: #003059;
     border-radius: 10%;
     padding: 15px;
-    top: 200px;
+    top: 240px;
     left: 1.5%;
+    width: 270px;
+    height: 350px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grey{
@@ -41,6 +35,8 @@ h1{
 .menufix li{
     list-style: none;
     margin: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav{
@@ -51,13 +47,15 @@ h1{
 
 .info {
     text-align: center;
+    font-size: medium;
 }
 
 .image {
-    margin-left: 615px;
+    margin-left: 608px;
     height: 150px;
     width: 200px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .form button {
@@ -66,3 +64,40 @@ h1{
     color: white;
     margin-left: 670px;
 }
+
+.date{
+    width: 300px;
+    height: 40px;
+}
+
+.nom{
+    width: 400px;
+    height: 30px;  
+}
+.prenom{
+    width: 380px;
+    height: 30px;  
+}
+
+.num{
+    width: 280px;
+    height: 30px;  
+}
+
+.email {
+    width: 360px;
+    height: 30px;    
+}
+
+
+.submit{
+    width: 200px;
+    color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;}
+
+button{
+margin-left: 23px;
+text-decoration: none;}

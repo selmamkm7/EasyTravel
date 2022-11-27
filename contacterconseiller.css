@@ -28,18 +28,25 @@ h1{
     padding: 15px;
     top: 200px;
     left: 1.5%;
+    width: 270;
+    height: 300;
+
 }
 
 .grey{
     color: yellow;
     text-decoration: none;
     text-transform: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .menufix li{
     list-style: none;
     margin: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav{

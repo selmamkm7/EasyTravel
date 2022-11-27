@@ -3,10 +3,13 @@
     padding: 0;
 }
 
-h1{
+.hist{
     text-align: center;
     color: #003059;
-    margin-bottom: 5vh;
+
+    text-shadow: none;
+    padding-bottom: 0;
+    
 }
 
 /* .profil{
@@ -25,20 +28,28 @@ h1{
     background-color: #003059;
     border-radius: 10%;
     padding: 15px;
-    top: 200px;
+    top: 320px;
     left: 1.5%;
+    width: 270px;
+    height: 300px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grey{
     color: yellow;
     text-decoration: none;
     text-transform: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .menufix li{
     list-style: none;
     margin: 20px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav{
@@ -57,15 +68,24 @@ h3 {
     text-align: center;
     /* width: 40%; */
     margin-left: 30%;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .voyage_1{
     height: 200px;
     width: 300px;
     margin-top: 30px;
+    font-size: small;
 }
 
 .voyages{
     display: flex;
+}
+p{
+    font-size: small;
+    padding-bottom: 15px;
+}
+img{
+    margin-top: 20px;
+    margin-bottom: ;
 }

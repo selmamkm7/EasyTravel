@@ -6,7 +6,8 @@ body{
 h1{
     text-align: center;
     color: #003059;
-    margin-bottom: 5vh;
+    text-shadow: none;
+    margin-bottom: 0;
 }
 
 
@@ -16,14 +17,18 @@ h1{
     background-color: #003059;
     border-radius: 10%;
     padding: 15px;
-    top: 20vh;
+    top: 320px;
     left: 1.5%;
+    width: 270px;
+    height: 300px;
 }
 
 .grey{
     color: yellow;
     text-decoration: none;
     text-transform: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -41,19 +46,80 @@ h1{
 h1 {
     text-align: center;
     color: #003059;
+    margin-bottom: 0;
 }
 h2 {
     text-align: center;
     color: black;
+    margin-bottom: 0;
 }
 h4 {
     text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .image {
     margin-left: 350px;
 }
 
 form {
-    text-align: justify;
-    margin-left: 630px;
+margin-top: 50px;
+text-align: center;
+font-size: medium;
+}
+p{
+    font-size: medium;  
+}
+
+.nom{
+    width: 250px;
+    height: 30px;
+}
+.prenom {
+    width: 230px;
+    height: 30px;
+}
+
+
+.vacc{
+    width: 100px;
+    height: 20px;  
+}
+
+.pcr{
+    
+        width: 100px;
+        height: 20px;  
+    
+}
+.aero {  width: 150px;
+    height: 30px;}
+
+.aero1 {
+        width: 170px;
+    height: 30px;
+    }
+
+.volA{
+    width: 115px;
+    height: 30px; 
+}
+.volAA {
+    width: 128px;
+    height: 30px;
+}
+
+.volR{
+    width: 130px;
+    height: 30px;
+}
+.volRR{
+    width: 140px;
+    height: 30px; 
+}
+
+form.guide{
+    margin-top: 5px;
+text-align: center;
+font-size: medium;
 }
