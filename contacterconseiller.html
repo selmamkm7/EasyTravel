@@ -1,13 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
   
 
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+>>>>>>> a9f63313852a3620a2f5ba8cb7920dc4a4b853c5
     <title>Contacter mon conseiller!</title>
 
     <link rel="stylesheet" href="./contacterconseiller.css">
 </head>
 <body>
+ <!-- menu deroulant -->
+ <header>
+    <div>
+        <img src="./images/easytravel_logo.png" alt="business logo" width="100px" height="100px" class="logo">
+    </div>
+    <div class="principale">
+      <div class="p-nav">
+        <nav>
+          <ul id="menu">
+            <li class="grandparent"><a href="#"><span class="hover-color">Destination</span></a>
+            <li class="grandparent"><a href="#"><span class="hover-color">Nos Formules</span></a>
+            </li>
+          
+          <li class="grandparent">
+            <a tabindex="-1" href="#"><span class="hover-color">A Propos</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>         
+                <div class="Icons">
+                  <div class="dropdown">
+                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg>
+                      </a>
+                    
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="http://127.0.0.1:5501/index.html"> <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModalA">
+                          Deconnexion
+                        </button> </a></li>
+                       
+                    </div>
+                 
+                </a>
+                <a  class="cart" href="#">
+                  <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModalD"><i class="fa-solid fa-cart-shopping" width="40px"></i></button>
+                </a>
+          <!-- Menu User -->
+<!-- Modal -->
+
+
+<div class="modal fade mw-100"  id="exampleModalA" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Deconnexion</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  
+</div>
+</div>
+
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Inscription</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <div class="div-inscription"><br>
+      <form class="form-inscription" action="get">
+              <label class="label-inscription">
+                  <input class="input-inscription" type="text" name="nom" placeholder="Nom" required> <br>
+              </label><br><br>
+              <label class="label-inscription">
+                  <input class="input-inscription" type="text" name="prénom" placeholder="Prénom" required>
+              </label><br> <br>
+              <label class="label-inscription">
+                  <input class="input-inscription" type="email" name="email" placeholder="Adresse mail" required> <br>
+              </label><br>
+              <label class="label-inscription">
+                  <input class="input-inscription" type="tel" name="téléphone" placeholder="Numéro de téléphone" required>
+              </label> <br><br>
+              <label class="label-inscription">
+                  <input class="input-inscription" type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required> <br>
+              </label>
+              <p class="p-inscription">*doit contenir au moins 8 caractéres, dont une <br> majuscule, un chiffre et un caractére spécial.</p>
+              
+              <label class="label-inscription">
+                  <input class="input-inscription" type="password" name="confirmation-mdp" placeholder="Confirmation mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required>
+              </label><br>
+              <article class="label-inscription">
+              <label class="label-inscriptionZ">
+                <input class="input-inscription" type="checkbox" name="CGV-NL" id="accepte"> <p class="inline">J'accepte les conditions générales de ventes </p>
+            </label>
+             <label class="label-inscriptionZ">
+              <input class="input-inscription" type="checkbox" name="CGV-NL" id="accepte"> <p class="inline">J'accepte de m'incrire à la Newsletter et de recevoir des offres promotionnelles </p>
+          </label></article>
+  </div>
+  <div class="modal-footer">
+    <button id="inscription" class="btn btn-secondary" class="button-connexion" type="submit" name="Envoyer">Valider</button>
+  </div>
+</div></form>
+</div>
+</div>
+</div> -->
+
+<!-- cart -->
+<div class="modal fade" id="exampleModalLabelC" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Inscription</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+<div class="text2">
+ <h1 class="h1-inscription">Inscription</h1>
+ <div class="div-inscription"><br><br><br><br><br><br><br><br><br><br>
+<form class="form-inscription" action="get"></form>
+     <label class="label-inscription">
+         <input class="input-inscription" type="text" name="nom" placeholder="Nom" required> <br>
+     </label><br>
+     <label class="label-inscription">
+         <input class="input-inscription" type="text" name="prénom" placeholder="Prénom" required>
+     </label><br> <br>
+     <label class="label-inscription">
+         <input class="input-inscription" type="email" name="email" placeholder="Adresse mail" required> <br>
+     </label><br>
+     <label class="label-inscription">
+         <input class="input-inscription" type="tel" name="téléphone" placeholder="Numéro de téléphone" required>
+     </label> <br><br>
+     <label class="label-inscription">
+         <input class="input-inscription" type="password" name="mdp" placeholder="Mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required> <br>
+     </label>
+     <p class="p-inscription">*doit contenir au moins 8 caractéres, dont une majuscule, un chiffre et un caractére spécial.</p>
+     <label class="label-inscription">
+         <input class="input-inscription" type="password" name="confirmation-mdp" placeholder="Confirmation mot de passe" minlength="8" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required>
+     </label><br><br>
+     <label class="label-inscription">
+         <input class="input-inscription" type="checkbox" name="CGV-NL" id="J'accepte" required>  <label for="CGV-NL" class="inline">J'accepte <a href="">les conditions générales de vente.</a>  </label>
+     </label><br>
+     <label class="label-inscription">
+         <input class="input-inscription" type="checkbox" name="CGV-NL" id="j'accepte"> <label for="CGV-NL" class="inline">J'accepte de m'incrire à la Newsletter et de recevoir des offres promotionnelles </label>
+     </label><br><br>
+     <button class="button-inscription" type="submit" name="Envoyer">Valider</button>
+ </div>
+</div> </div></div></div></div>
+<div class="modal fade mw-100"  id="exampleModalD" tabindex="-1" aria-labelledby="exampleModalLabelC" aria-hidden="true" >
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" >
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabelC">Panier</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <div class="div-connexion">
+      <div class="dropdown">
+        <div id="cart">
+            <p>Votre panier est vide</p>
+        </div>
+    </div>
+</div>
+</div>
+</div></div>
+
+<!-- Fin Menu User -->
+     </div>
+    </header>
+<!-- fin menu deroulant -->
+
     <h1>Contacter mon conseiller</h1>
 
     <div class="menufix">
@@ -46,14 +216,17 @@
         <img src="./images/logo_easytravel.png" alt="business logo" width="100px" height="100px">
     </div>
       <div class="footermenu">
-        <a href="#">FAQ</a>
-        <a href="#">Contact</a> 
-        <a href="#">Mentions Legales</a>
+        <a href="./FAQ.html">FAQ</a>
+        <a href="./contact2.html">Contact</a> 
+        <a href="./CSV.html">Mentions Legales</a>
       </div>
       <div class="copy">
           <span class="footercopy">Copyright &copy; 2022</span>
        </div>    
  </footer>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>       
  </body>
 </html>
 

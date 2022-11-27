@@ -20,9 +20,11 @@ font-size: small;}
         border-width: 2px;
     }
 
-h2{text-align: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: xx-large;}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    }
 
 input{
     border-radius: 10px;

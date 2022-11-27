@@ -1,10 +1,16 @@
 footer{
+    
+    bottom: 0;
     background: rgb(0,48,89);
     background: linear-gradient(0deg, rgba(0,48,89,1) 0%, rgba(0,48,89,0.9652193641128326) 33%,rgba(0,48,89,0.752334210051208) 66%, rgba(0,48,89,0.1080765069699755) 100%);    
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     margin-top: 100px;
 
+=======
+    width: 100%;
+>>>>>>> a9f63313852a3620a2f5ba8cb7920dc4a4b853c5
 }
 .footermenu{
     
@@ -15,6 +21,7 @@ footer{
 
 }
 .footermenu a{
+    
     margin: auto;
     color: rgba(250, 235, 215, 0.864);
 }

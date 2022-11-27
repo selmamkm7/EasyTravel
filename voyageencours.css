@@ -63,6 +63,7 @@ h4 {
 }
 
 form {
+<<<<<<< HEAD
 margin-top: 50px;
 text-align: center;
 font-size: medium;
@@ -123,3 +124,8 @@ form.guide{
 text-align: center;
 font-size: medium;
 }
+=======
+    text-align: justify;
+    margin-left: 630px;
+}
+>>>>>>> a9f63313852a3620a2f5ba8cb7920dc4a4b853c5
